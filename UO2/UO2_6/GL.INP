@@ -1,0 +1,18 @@
+# all comments must be in lower case, including the key words quoted!
+# one key word per line.
+LSCF = 6     # (regenerate variational setup and run)
+LGPRJ = 1     # (variational setup)
+LEIGV = 5     # (exact diagonalization)
+LDC = 12     # (standard double counting)
+LHUB = 1
+
+ATOM TYPE INFO
+1       # number of different types of correlated atoms
+NT = 1         # (comment line) label correlated type of atom
+10.0 0.6         # u,j of f electrons of u
+7              # number of f orbitals (no spin)
+0 4  2         # valence range chosen & n0
+
+ATOM INFO
+1        # nions (total number of correlated atoms, equivalent or not)
+1 1 1         # itype, ni0, nimap
