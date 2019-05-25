@@ -1,0 +1,76 @@
+Calculating deltaprime_Pu_16 in /scratch/ykent33649/deltaprime_Pu_16
+on node020 with PID 16285
+
+
+
+
+   start        Wed Jan 29 14:26:02 2014 with lapw0 (1/100 to go)
+
+   cycle 0 	Wed Jan 29 14:26:02 2014 1000/0 to go
+
+>lapw0      ( 14:26:02 ) starting parallel lapw0 at Wed Jan 29 14:26:04 CST 2014
+-------- .machine0 : 2 processors
+1.023u 0.183s 0:04.87 24.6%	0+0k 0+0io 67pf+0w
+>lapw1      ( 14:26:09 ) starting parallel lapw1 at Wed Jan 29 14:26:09 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 14:26:09 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 16953
+[2] 17095
+[2]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node020(363) 16.398u 0.341s 0:26.19 63.8%	0+0k 0+0io 6pf+0w
+     node020(363) 16.519u 0.348s 0:25.35 66.4%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node020	 k=726	 user=32.917	 wallclock=51.54
+32.993u 0.872s 0:30.05 112.6%	0+0k 0+0io 8pf+0w
+>lapwso     ( 14:26:40 ) running LAPWSO in parallel mode
+[1] 17610
+[2] 17636
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node020 9.302u 0.776s 0:43.75 23.0% 0+0k 0+0io 1pf+0w
+      node020 9.529u 0.758s 1:02.12 16.5% 0+0k 0+0io 1pf+0w
+   Summary of lapwsopara:
+   node020	 user=18.831	 wallclock=105.87
+18.885u 1.648s 1:03.42 32.3%	0+0k 0+0io 2pf+0w
+>dmft1      ( 14:27:46 ) 7.06user 0.33system 0:33.78elapsed 21%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 14:28:20 ) 6418.31user 11.89system 1:48:07elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 16:16:28 ) 52.88user 0.29system 0:47.44elapsed 112%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 16:17:16 ) 0.009u 0.002s 0:01.51 0.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 16:17:19 ) 0.009u 0.011s 0:04.01 0.2%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  1.0
+:CHARGE convergence:  0.0005046
+>lapw0      ( 16:17:23 ) starting parallel lapw0 at Wed Jan 29 16:17:31 CST 2014
+-------- .machine0 : 2 processors
+0.884u 0.081s 0:15.15 6.3%	0+0k 0+0io 9pf+0w
+>lapw1      ( 16:17:43 ) starting parallel lapw1 at Wed Jan 29 16:17:51 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 16:17:51 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 20422
+[2] 20479
+[2]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]    Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node020(363) 16.356u 0.354s 0:29.86 55.9%	0+0k 0+0io 0pf+0w
+     node020(363) 16.375u 0.353s 0:26.72 62.5%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node020	 k=726	 user=32.731	 wallclock=56.58
+32.836u 0.865s 0:35.08 96.0%	0+0k 0+0io 0pf+0w
+>lapwso     ( 16:18:22 ) running LAPWSO in parallel mode
+[1] 20645
+[2] 20651
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node020 9.778u 0.692s 0:23.81 43.9% 0+0k 0+0io 0pf+0w
+      node020 9.623u 0.711s 0:20.49 50.4% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node020	 user=19.401	 wallclock=44.3
+19.442u 1.566s 0:27.58 76.1%	0+0k 0+0io 0pf+0w
+>dmft1      ( 16:18:51 ) 7.15user 0.39system 0:09.04elapsed 83%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 16:19:00 ) 2578.57user 7.71system 43:05.74elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 17:02:06 ) 52.65user 0.29system 0:36.56elapsed 144%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 17:02:42 ) 0.017u 0.001s 0:00.02 50.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 17:03:28 ) 0.012u 0.009s 0:00.04 25.0%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  2.22000380745e-06
+:CHARGE convergence:  0.0004591

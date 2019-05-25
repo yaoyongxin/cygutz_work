@@ -1,0 +1,241 @@
+Calculating epsilon_Pu_4 in /scratch/ykent33658/epsilon_Pu_4
+on node018 with PID 1355
+
+
+
+
+   start        Wed Jan 29 14:34:03 2014 with lapw0 (1/100 to go)
+
+   cycle 0 	Wed Jan 29 14:34:03 2014 1000/0 to go
+
+>lapw0      ( 14:34:03 ) starting parallel lapw0 at Wed Jan 29 14:34:06 CST 2014
+-------- .machine0 : 2 processors
+0.849u 0.116s 0:10.10 9.4%	0+0k 0+0io 78pf+0w
+>lapw1      ( 14:34:15 ) starting parallel lapw1 at Wed Jan 29 14:34:15 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 14:34:15 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 2131
+[2] 2228
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 3.817u 0.106s 0:08.61 45.4%	0+0k 0+0io 6pf+0w
+     node018(143) 3.718u 0.114s 0:04.79 79.7%	0+0k 0+0io 6pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.535	 wallclock=13.4
+7.601u 0.406s 0:10.93 73.1%	0+0k 0+0io 14pf+0w
+>lapwso     ( 14:34:26 ) running LAPWSO in parallel mode
+[1] 2623
+[2] 2760
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.309u 0.168s 0:07.34 19.8% 0+0k 0+0io 0pf+0w
+      node018 1.258u 0.136s 0:01.39 99.2% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.567	 wallclock=8.73
+2.616u 0.406s 0:07.47 40.2%	0+0k 0+0io 0pf+0w
+>dmft1      ( 14:34:34 ) 1.88user 0.14system 0:02.76elapsed 73%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 14:34:39 ) 7212.12user 12.86system 2:01:51elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 16:36:30 ) 11.16user 0.13system 0:09.72elapsed 116%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 16:36:40 ) 0.010u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 16:36:40 ) 0.007u 0.010s 0:00.02 50.0%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  1.0
+:CHARGE convergence:  0.0100988
+>lapw0      ( 16:36:40 ) starting parallel lapw0 at Wed Jan 29 16:36:40 CST 2014
+-------- .machine0 : 2 processors
+0.850u 0.086s 0:02.55 36.4%	0+0k 0+0io 9pf+0w
+>lapw1      ( 16:36:43 ) starting parallel lapw1 at Wed Jan 29 16:36:43 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 16:36:43 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 6097
+[2] 6116
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 3.947u 0.119s 0:04.12 98.3%	0+0k 0+0io 0pf+0w
+     node018(143) 3.898u 0.097s 0:04.04 98.5%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.845	 wallclock=8.16
+7.903u 0.361s 0:07.16 115.3%	0+0k 0+0io 0pf+0w
+>lapwso     ( 16:36:50 ) running LAPWSO in parallel mode
+[1] 6245
+[2] 6251
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.458u 0.161s 0:01.67 96.4% 0+0k 0+0io 0pf+0w
+      node018 1.335u 0.185s 0:01.52 99.3% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.793	 wallclock=3.19
+2.836u 0.455s 0:02.65 123.7%	0+0k 0+0io 0pf+0w
+>dmft1      ( 16:36:53 ) 1.94user 0.15system 0:02.15elapsed 97%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 16:36:55 ) 2337.74user 7.89system 39:05.23elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 17:16:00 ) 10.85user 0.12system 0:06.57elapsed 167%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 17:16:07 ) 0.010u 0.003s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 17:16:07 ) 0.012u 0.007s 0:00.07 14.2%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  1.89200000023e-05
+:CHARGE convergence:  0.0090408
+>lapw0      ( 17:16:07 ) starting parallel lapw0 at Wed Jan 29 17:16:07 CST 2014
+-------- .machine0 : 2 processors
+0.856u 0.073s 0:02.56 35.9%	0+0k 0+0io 9pf+0w
+>lapw1      ( 17:16:09 ) starting parallel lapw1 at Wed Jan 29 17:16:10 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 17:16:10 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 8345
+[2] 8364
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 3.995u 0.109s 0:04.12 99.2%	0+0k 0+0io 0pf+0w
+     node018(143) 3.865u 0.095s 0:04.06 97.2%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.86	 wallclock=8.18
+7.912u 0.356s 0:07.16 115.3%	0+0k 0+0io 0pf+0w
+>lapwso     ( 17:16:17 ) running LAPWSO in parallel mode
+[1] 8493
+[2] 8500
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.414u 0.151s 0:01.61 96.8% 0+0k 0+0io 0pf+0w
+      node018 1.321u 0.175s 0:01.49 100.0% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.735	 wallclock=3.1
+2.781u 0.436s 0:02.62 122.5%	0+0k 0+0io 0pf+0w
+>dmft1      ( 17:16:19 ) 1.95user 0.16system 0:02.12elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 17:16:22 ) 2780.47user 8.23system 46:25.86elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 18:02:47 ) 11.01user 0.11system 0:07.24elapsed 153%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 18:02:55 ) 0.009u 0.003s 0:00.01 0.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 18:02:55 ) 0.015u 0.012s 0:00.08 25.0%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  0.000194519998331
+:CHARGE convergence:  0.0015826
+>lapw0      ( 18:02:56 ) starting parallel lapw0 at Wed Jan 29 18:02:56 CST 2014
+-------- .machine0 : 2 processors
+0.855u 0.090s 0:03.12 30.1%	0+0k 0+0io 10pf+0w
+>lapw1      ( 18:02:59 ) starting parallel lapw1 at Wed Jan 29 18:03:00 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 18:03:00 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 10243
+[2] 10263
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 4.020u 0.093s 0:04.12 99.7%	0+0k 0+0io 0pf+0w
+     node018(143) 3.913u 0.094s 0:04.02 99.5%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.933	 wallclock=8.14
+7.997u 0.345s 0:07.17 116.1%	0+0k 0+0io 0pf+0w
+>lapwso     ( 18:03:07 ) running LAPWSO in parallel mode
+[1] 10392
+[2] 10398
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.410u 0.159s 0:03.33 46.8% 0+0k 0+0io 0pf+0w
+      node018 1.336u 0.138s 0:02.23 65.4% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.746	 wallclock=5.56
+2.786u 0.405s 0:03.45 92.1%	0+0k 0+0io 0pf+0w
+>dmft1      ( 18:03:11 ) 1.97user 0.15system 0:09.35elapsed 22%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 18:03:20 ) 2103.86user 7.67system 35:13.14elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 18:38:34 ) 11.04user 0.12system 0:06.65elapsed 167%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 18:38:40 ) 0.010u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 18:38:40 ) 0.012u 0.011s 0:00.03 66.6%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  6.80399971316e-05
+:CHARGE convergence:  0.0012802
+>lapw0      ( 18:38:40 ) starting parallel lapw0 at Wed Jan 29 18:38:40 CST 2014
+-------- .machine0 : 2 processors
+0.857u 0.092s 0:02.57 36.5%	0+0k 0+0io 9pf+0w
+>lapw1      ( 18:38:43 ) starting parallel lapw1 at Wed Jan 29 18:38:43 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 18:38:43 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 11999
+[2] 12018
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 3.994u 0.102s 0:04.10 99.7%	0+0k 0+0io 0pf+0w
+     node018(143) 3.836u 0.108s 0:04.04 97.2%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.83	 wallclock=8.14
+7.893u 0.356s 0:07.16 115.0%	0+0k 0+0io 0pf+0w
+>lapwso     ( 18:38:50 ) running LAPWSO in parallel mode
+[1] 12147
+[2] 12153
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.456u 0.185s 0:01.69 96.4% 0+0k 0+0io 0pf+0w
+      node018 1.338u 0.162s 0:01.50 99.3% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.794	 wallclock=3.19
+2.832u 0.462s 0:02.63 125.0%	0+0k 0+0io 0pf+0w
+>dmft1      ( 18:38:53 ) 1.94user 0.15system 0:02.14elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 18:38:55 ) 3303.41user 8.24system 55:09.09elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 19:34:04 ) 10.91user 0.12system 0:08.98elapsed 122%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 19:34:13 ) 0.009u 0.002s 0:00.01 0.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 19:34:13 ) 0.012u 0.011s 0:00.06 33.3%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  6.61599988234e-05
+:CHARGE convergence:  0.0029477
+>lapw0      ( 19:34:13 ) starting parallel lapw0 at Wed Jan 29 19:34:13 CST 2014
+-------- .machine0 : 2 processors
+0.865u 0.076s 0:02.56 36.3%	0+0k 0+0io 9pf+0w
+>lapw1      ( 19:34:16 ) starting parallel lapw1 at Wed Jan 29 19:34:16 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 19:34:16 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 14885
+[2] 14904
+[2]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 4.021u 0.115s 0:04.20 98.3%	0+0k 0+0io 0pf+0w
+     node018(143) 3.886u 0.106s 0:03.99 99.7%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.907	 wallclock=8.19
+7.980u 0.354s 0:07.16 116.3%	0+0k 0+0io 0pf+0w
+>lapwso     ( 19:34:23 ) running LAPWSO in parallel mode
+[1] 15034
+[2] 15040
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.406u 0.164s 0:01.82 85.7% 0+0k 0+0io 0pf+0w
+      node018 1.337u 0.171s 0:03.02 49.6% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.743	 wallclock=4.84
+2.788u 0.438s 0:04.26 75.3%	0+0k 0+0io 0pf+0w
+>dmft1      ( 19:34:30 ) 2.07user 0.14system 0:02.24elapsed 98%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 19:34:32 ) 3031.89user 8.22system 50:37.15elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 20:25:10 ) 10.33user 0.09system 0:06.29elapsed 165%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 20:25:16 ) 0.015u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 20:25:16 ) 0.011u 0.013s 0:00.05 40.0%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  3.72200011043e-05
+:CHARGE convergence:  0.000288
+>lapw0      ( 20:25:16 ) starting parallel lapw0 at Wed Jan 29 20:25:16 CST 2014
+-------- .machine0 : 2 processors
+0.799u 0.102s 0:02.53 35.1%	0+0k 0+0io 9pf+0w
+>lapw1      ( 20:25:19 ) starting parallel lapw1 at Wed Jan 29 20:25:19 CST 2014
+->  starting parallel LAPW1 jobs at Wed Jan 29 20:25:19 CST 2014
+running LAPW1 in parallel mode (using .machines)
+2 number_of_parallel_jobs
+[1] 16980
+[2] 16999
+[2]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[1]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
+     node018(143) 3.981u 0.104s 0:04.09 99.7%	0+0k 0+0io 0pf+0w
+     node018(143) 3.883u 0.106s 0:03.99 99.7%	0+0k 0+0io 0pf+0w
+   Summary of lapw1para:
+   node018	 k=286	 user=7.864	 wallclock=8.08
+7.930u 0.370s 0:07.16 115.9%	0+0k 0+0io 0pf+0w
+>lapwso     ( 20:25:26 ) running LAPWSO in parallel mode
+[1] 17128
+[2] 17134
+[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
+      node018 1.408u 0.159s 0:01.60 96.8% 0+0k 0+0io 0pf+0w
+      node018 1.314u 0.169s 0:01.48 99.3% 0+0k 0+0io 0pf+0w
+   Summary of lapwsopara:
+   node018	 user=2.722	 wallclock=3.08
+2.764u 0.438s 0:02.61 122.2%	0+0k 0+0io 0pf+0w
+>dmft1      ( 20:25:29 ) 1.88user 0.13system 0:02.09elapsed 96%CPU (0avgtext+0avgdata 0maxresident)k
+>FastGutz   ( 20:25:31 ) 2336.15user 7.68system 39:00.36elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
+>dmft2      ( 21:04:31 ) 10.39user 0.10system 0:09.36elapsed 112%CPU (0avgtext+0avgdata 0maxresident)k
+>lcore      ( 21:04:40 ) 0.014u 0.003s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
+>mixer      ( 21:04:44 ) 0.012u 0.014s 0:00.05 40.0%	0+0k 0+0io 0pf+0w
+:ENERGY convergence:  5.12999395141e-06
+:CHARGE convergence:  0.0002156
