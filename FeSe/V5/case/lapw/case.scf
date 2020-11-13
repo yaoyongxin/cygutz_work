@@ -1,0 +1,2882 @@
+
+:LABEL1: Calculations in /home/ykent/GWIEN/example/FeSe/V5/case
+:LABEL2: on hal2011.cmpgroup.ameslab.gov at Wed Nov 11 08:51:44 CST 2020
+:LABEL3: using WIEN2k_19.1 (Release 25/6/2019) in /home/ykent/OPT/apps/WIEN2k_19.1
+:LABEL4: using the command: run_lapw
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE001:  1. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.947E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.20169E+00
+:EFG001:                        EFG         =    -0.08281   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.07172    -0.10115
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.04141    0.00000    0.00000        0.04141    0.00000    0.00000
+              0.00000    0.04141    0.00000        0.00000    0.04141    0.00000
+              0.00000    0.00000   -0.08281        0.00000    0.00000   -0.08281
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.68127E-01
+:EFG002:                        EFG         =     0.03259   *10**21  V / m**2
+                               V20  TOT/SRF=     0.02822     0.04142
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+             -0.01629    0.00000    0.00000       -0.01629    0.00000    0.00000
+              0.00000   -0.01629    0.00000        0.00000   -0.01629    0.00000
+              0.00000    0.00000    0.03259        0.00000    0.00000    0.03259
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1627.953619654579      0.000000000000      0.000000000000   1627.953619654579
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1088894E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1088894E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.9210909E-04
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.9210909E-04
+:DEN  : DENSITY INTEGRAL  =         -6225.04803842   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.84243   0.72405
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.73230  -0.84243  -0.88987 v5,v5c,v5x   0.18824   0.72405  -0.53580
+:VZERY:v0,v0c,v0x  -0.73648   0.00000  -0.73648 v5,v5c,v5x  -0.73648   0.00000  -0.73648
+:VZERX:v0,v0c,v0x   0.13855   0.80225  -0.66370 v5,v5c,v5x   0.13855   0.80225  -0.66370
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.3000
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.3000
+             APW+lo
+:E1_0001: E( 1)=   -3.4468   E(BOTTOM)=   -3.541   E(TOP)=   -3.352  1  2   149
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3281   E(BOTTOM)=   -0.042   E(TOP)=    0.698  0  1   141
+             APW+lo
+:E0_0001: E( 0)=    0.3000
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.3000
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.3000
+             APW+lo
+:E2_0002: E( 2)=   -3.1183   E(BOTTOM)=   -3.163   E(TOP)=   -3.074  0  1   146
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.7000
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.612   E(TOP)= -200.000  3 -1   181
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.3000
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4328606   -3.4326222   -3.4235921   -3.4234093   -3.4231711
+:EIG00006:      -3.4215052   -3.1080393   -3.1080248   -3.1079742   -3.1079708
+:EIG00011:      -3.1076471   -3.1076222   -3.1071518   -3.1070330   -3.1064841
+:EIG00016:      -3.1064350   -0.6627404   -0.5758149   -0.0238819    0.1126263
+:EIG00021:       0.1262448    0.1310115    0.1700454    0.1749216    0.2180705
+:EIG00026:       0.3570714    0.3607889    0.4009218    0.4174078    0.4186246
+:EIG00031:       0.4585648    0.4755327    0.5559616    0.5707793    0.6112940
+:EIG00036:       0.7741960    0.8305089    0.8970252    0.9047233    0.9340575
+:EIG00041:       1.2678876    1.2900490    1.3388059    1.3644633    1.3696785
+:EIG00046:       1.3758292    1.4258658    1.4634223    1.4797845    1.5062530
+ 
+:EIG00051:       1.6026649    1.6136988    1.7146272    1.7439507    1.8472502
+:EIG00056:       1.9580297    1.9860809
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.101114    0.161434  2.00000000
+:BAN00023:  23    0.132501    0.192791  2.00000000
+:BAN00024:  24    0.153840    0.197249  2.00000000
+:BAN00025:  25    0.218022    0.309419  2.00000000
+:BAN00026:  26    0.267915    0.362266  2.00000000
+:BAN00027:  27    0.278545    0.365963  2.00000000
+:BAN00028:  28    0.278545    0.403503  2.00000000
+:BAN00029:  29    0.347208    0.418467  1.86726334
+:BAN00030:  30    0.347208    0.424316  1.84619449
+:BAN00031:  31    0.391943    0.498962  0.16331801
+:BAN00032:  32    0.393522    0.498962  0.12322416
+:BAN00033:  33    0.479909    0.555962  0.00000000
+:BAN00034:  34    0.479909    0.570779  0.00000000
+:BAN00035:  35    0.611294    0.872820  0.00000000
+:BAN00036:  36    0.721170    0.878215  0.00000000
+:BAN00037:  37    0.798680    0.984893  0.00000000
+        Energy to separate low and high energystates:   -0.07388
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.4081923494
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5166    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2673 6.2502 5.9783 0.0171 2.0662 4.1840 0.0000 1.3654 1.2402 1.0986 2.2740 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0409 -0.6244    6.0037 -3.4088    0.0376 -0.6093    0.0030 -0.7205
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2264  0.0460    0.2465  0.1663    5.9407  0.2934    0.0141  0.1825
+:VZZ001: EFG INSIDE SPHERE   1 =    -1.595090      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3384    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3624 1.921010.0417 0.0111 0.6593 1.2617 0.0000 2.0081 2.0068 2.0064 4.0204 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2449 -0.5958    0.0216 -0.6583    9.9767 -3.1075    0.0002 -2.6062
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.1176  0.1281    1.8995  0.1255    0.0650  0.2214    0.0109  0.3094
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.571623      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -100.436260660
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.134606835 Ry
+:2S 001: 2S                 -59.059220665 Ry
+:2PP001: 2P*                -50.861814639 Ry
+:2P 001: 2P                 -49.946604787 Ry
+:3S 001: 3S                  -5.883852153 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM    917.938327102470      0.000000000000      0.000000000000   -917.938327102470
+
+:1S 002: 1S                -916.401773148 Ry
+:2S 002: 2S                -117.066520356 Ry
+:2PP002: 2P*               -105.040922462 Ry
+:2P 002: 2P                -101.977794588 Ry
+:3S 002: 3S                 -14.807331096 Ry
+:3PP002: 3P*                -10.694789613 Ry
+:3P 002: 3P                 -10.262606954 Ry
+:CINT001 Core Integral Atom   1   11.997047
+:CINT002 Core Integral Atom   2   17.999403
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.935850        0.000000    14797.038006    14802.973856
+:RTO002:   2       56.115789        0.000000    38924.296280    38980.412069
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.289975
+:NPC   : PW Pseudocharge     =    13.750434
+:NTO001: CHARGE SPHERE  1    =    24.513634
+:NTO002: CHARGE SPHERE  2    =    31.337822
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99289
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     7.962419
+:OPC   : PW Pseudocharge     =    17.262483
+:OTO001: CHARGE SPHERE  1    =    24.581875
+:OTO002: CHARGE SPHERE  2    =    31.437069
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00031
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.4300473
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.1158907
+
+:DIS  :  CHARGE DISTANCE       ( 0.4300473 for atom    1 spin 1)      0.2729690
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      4.6482 DISTAN   1.57E+00  3.38E+01 %
+:CHARG:  CLM/ATOM    303.3579 DISTAN   3.97E-01  1.31E-01 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+:INFO :  Note, Pratt in use
+:TRUST:  Step 3.75E-02  Charge 7.50E-02 (e) CTO  2.50E-01 (e) PW  3.50E-01 (e)
+:DIRM :  MEMORY  0/ 8 SCALE   1.000
+Performing Pseudo Compensation
+Final Pseudo Compensation Rescaling     9.99984E-01
+:MIX  :   PRATT  REGULARIZATION:  1.00E-04 GREED: 0.02500                  
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     7.970486
+:CPC   : PW Pseudocharge     =    14.661325
+:CTO001: CHARGE SPHERE  1    =    24.580169
+:CTO002: CHARGE SPHERE  2    =    31.434588
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.26789640E-02 -4.888E-03 -5.968E-03
+:PTO002:      0    0   -1  1.70647269E-02 -4.454E-03 -2.403E-03
+:PTO004:     -1    0   -1 -9.30340056E-02  1.504E-02  1.863E-02
+:PTO005:      0    0   -2 -9.74968688E-03 -8.188E-04 -6.588E-04
+:PTO006:     -1   -1    0 -1.95938907E-02 -1.420E-03 -2.313E-03
+:PTO007:     -1   -1   -1  3.06029515E-02 -1.795E-02 -2.408E-02
+:PTO008:     -1    0   -2  1.12601932E-02 -3.288E-03 -6.710E-03
+:PTO009:     -1   -1   -2  3.51533309E-02 -2.500E-02 -3.368E-02
+:PTO010:     -2    0    0 -1.66311427E-02  1.248E-02  1.667E-02
+:PTO011:      0    0   -3  3.73376610E-03 -4.346E-03 -6.211E-03
+:PTO012:     -2    0   -1 -2.49001841E-03  1.154E-02  1.788E-02
+:PTO014:     -1    0   -3  1.22272063E-02 -9.224E-03 -1.307E-02
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.78367358
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM        710.015          0.000          0.000        710.015 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        710.015 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   710.015292552 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE002:  2. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.332E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.20103E+00
+:EFG001:                        EFG         =    -0.11722   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.10152    -0.09543
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.05861    0.00000    0.00000        0.05861    0.00000    0.00000
+              0.00000    0.05861    0.00000        0.00000    0.05861    0.00000
+              0.00000    0.00000   -0.11722        0.00000    0.00000   -0.11722
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.62704E-01
+:EFG002:                        EFG         =    -0.10772   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.09329     0.03953
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.05386    0.00000    0.00000        0.05386    0.00000    0.00000
+              0.00000    0.05386    0.00000        0.00000    0.05386    0.00000
+              0.00000    0.00000   -0.10772        0.00000    0.00000   -0.10772
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1520.844641790640      0.000000000000      0.000000000000   1520.844641790640
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1101549E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1101549E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.9728280E-04
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.9728280E-04
+:DEN  : DENSITY INTEGRAL  =         -6224.01665333   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.81817   0.71364
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.64736  -0.81817  -0.82918 v5,v5c,v5x   0.17849   0.71364  -0.53516
+:VZERY:v0,v0c,v0x  -0.72417   0.00000  -0.72417 v5,v5c,v5x  -0.72417   0.00000  -0.72417
+:VZERX:v0,v0c,v0x   0.11470   0.79215  -0.67745 v5,v5c,v5x   0.11470   0.79215  -0.67745
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.2388
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.2388
+             APW+lo
+:E1_0001: E( 1)=   -3.4543   E(BOTTOM)=   -3.548   E(TOP)=   -3.360  1  2   151
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3217   E(BOTTOM)=   -0.047   E(TOP)=    0.691  0  1   137
+             APW+lo
+:E0_0001: E( 0)=    0.2388
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.2388
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.2388
+             APW+lo
+:E2_0002: E( 2)=   -3.1263   E(BOTTOM)=   -3.171   E(TOP)=   -3.082  0  1   147
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.6388
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.618   E(TOP)= -200.000  3 -1   179
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.2388
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4404643   -3.4402271   -3.4311618   -3.4310623   -3.4308253
+:EIG00006:      -3.4290862   -3.1159870   -3.1159726   -3.1159219   -3.1159185
+:EIG00011:      -3.1155770   -3.1155519   -3.1151870   -3.1150692   -3.1145236
+:EIG00016:      -3.1144751   -0.6676412   -0.5809625   -0.0292004    0.1076688
+:EIG00021:       0.1210609    0.1257912    0.1650086    0.1698549    0.2128629
+:EIG00026:       0.3503800    0.3544431    0.3944345    0.4109886    0.4121689
+:EIG00031:       0.4520790    0.4686459    0.5495745    0.5638442    0.6059841
+:EIG00036:       0.7685193    0.8247905    0.8919892    0.8999147    0.9287567
+:EIG00041:       1.2611853    1.2853201    1.3327826    1.3583365    1.3638944
+:EIG00046:       1.3717409    1.4203530    1.4583056    1.4734110    1.5006750
+ 
+:EIG00051:       1.5964787    1.6072547    1.7093575    1.7387955    1.8424361
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.095563    0.156163  2.00000000
+:BAN00023:  23    0.127849    0.188017  2.00000000
+:BAN00024:  24    0.148810    0.192426  2.00000000
+:BAN00025:  25    0.212815    0.303746  2.00000000
+:BAN00026:  26    0.262124    0.355452  2.00000000
+:BAN00027:  27    0.273591    0.359614  2.00000000
+:BAN00028:  28    0.273591    0.397447  2.00000000
+:BAN00029:  29    0.341265    0.412010  1.86683641
+:BAN00030:  30    0.341265    0.418054  1.84534422
+:BAN00031:  31    0.385424    0.492213  0.16375425
+:BAN00032:  32    0.386988    0.492213  0.12406512
+:BAN00033:  33    0.473016    0.549575  0.00000000
+:BAN00034:  34    0.473016    0.563844  0.00000000
+:BAN00035:  35    0.605984    0.867316  0.00000000
+:BAN00036:  36    0.715620    0.872841  0.00000000
+:BAN00037:  37    0.792324    0.979330  0.00000000
+        Energy to separate low and high energystates:   -0.07920
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.4018016669
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5226    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2662 6.2485 5.9873 0.0170 2.0660 4.1826 0.0000 1.3668 1.2406 1.1020 2.2779 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0405 -0.6293    6.0035 -3.4165    0.0373 -0.6145    0.0030 -0.7256
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2257  0.0411    0.2450  0.1611    5.9499  0.2876    0.0140  0.1766
+:VZZ001: EFG INSIDE SPHERE   1 =    -1.591351      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3400    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3622 1.923710.0409 0.0110 0.6604 1.2634 0.0000 2.0079 2.0068 2.0064 4.0198 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2476 -0.6009    0.0205 -0.6653    9.9767 -3.1155    0.0002 -2.6085
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.1147  0.1227    1.9032  0.1199    0.0642  0.2172    0.0108  0.3038
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.605464      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -100.841867182
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.148695939 Ry
+:2S 001: 2S                 -59.072561093 Ry
+:2PP001: 2P*                -50.875329889 Ry
+:2P 001: 2P                 -49.960102721 Ry
+:3S 001: 3S                  -5.891839569 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM    869.664092128627      0.000000000000      0.000000000000   -869.664092128627
+
+:1S 002: 1S                -916.411358772 Ry
+:2S 002: 2S                -117.075639294 Ry
+:2PP002: 2P*               -105.050124444 Ry
+:2P 002: 2P                -101.986985032 Ry
+:3S 002: 3S                 -14.815429365 Ry
+:3PP002: 3P*                -10.702873040 Ry
+:3P 002: 3P                 -10.270665337 Ry
+:CINT001 Core Integral Atom   1   11.997058
+:CINT002 Core Integral Atom   2   17.999404
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.913688        0.000000    14797.154187    14803.067875
+:RTO002:   2       56.111818        0.000000    38924.335664    38980.447482
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.274785
+:NPC   : PW Pseudocharge     =    13.739150
+:NTO001: CHARGE SPHERE  1    =    24.519652
+:NTO002: CHARGE SPHERE  2    =    31.339411
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99291
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     7.970486
+:OPC   : PW Pseudocharge     =    14.661325
+:OTO001: CHARGE SPHERE  1    =    24.580169
+:OTO002: CHARGE SPHERE  2    =    31.434588
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.3941077
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.1093617
+
+:DIS  :  CHARGE DISTANCE       ( 0.3941077 for atom    1 spin 1)      0.2517347
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Slow Mode, cautious                                *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Step Trust Radius    0.75000                       *
+* Trust Upper Limit    2.000E+00                     *
+* Max Number of Memory Steps   12                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.8589 DISTAN   4.38E-01  1.13E+01 %
+:CHARG:  CLM/ATOM    303.3562 DISTAN   3.72E-01  1.23E-01 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+:JACOBIANS    4.990E-01   3.016E-04
+  
+:TRUST:  Step 3.16E-02  Charge 7.50E-02 (e) CTO  2.50E-01 (e) PW  3.50E-01 (e)
+:DIRM :  MEMORY  1/12 SCALE   1.000
+:MIX  :   PRATT  REGULARIZATION:  1.00E-04 GREED: 0.03163  Expand 1.27  0.0316                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     7.972209
+:CPC   : PW Pseudocharge     =    14.126293
+:CTO001: CHARGE SPHERE  1    =    24.579818
+:CTO002: CHARGE SPHERE  2    =    31.434078
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.16732519E-02 -1.006E-03 -1.130E-03
+:PTO002:      0    0   -1  1.61482551E-02 -9.165E-04  1.876E-03
+:PTO004:     -1    0   -1 -8.99406101E-02  3.093E-03  3.546E-03
+:PTO005:      0    0   -2 -9.91815397E-03 -1.685E-04  1.227E-04
+:PTO006:     -1   -1    0 -1.98860696E-02 -2.922E-04 -9.130E-04
+:PTO007:     -1   -1   -1  2.69098836E-02 -3.693E-03 -6.042E-03
+:PTO008:     -1    0   -2  1.05837089E-02 -6.765E-04 -3.286E-03
+:PTO009:     -1   -1   -2  3.00091451E-02 -5.144E-03 -8.643E-03
+:PTO010:     -2    0    0 -1.40630041E-02  2.568E-03  4.151E-03
+:PTO011:      0    0   -3  2.83957724E-03 -8.942E-04 -1.837E-03
+:PTO012:     -2    0   -1 -1.16733513E-04  2.373E-03  6.322E-03
+:PTO014:     -1    0   -3  1.03293362E-02 -1.898E-03 -3.851E-03
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.77595085
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM        651.181          0.000          0.000        651.181 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        651.181 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   651.180549662 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE003:  3. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.327E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.20088E+00
+:EFG001:                        EFG         =    -0.12432   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.10766    -0.09427
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.06216    0.00000    0.00000        0.06216    0.00000    0.00000
+              0.00000    0.06216    0.00000        0.00000    0.06216    0.00000
+              0.00000    0.00000   -0.12432        0.00000    0.00000   -0.12432
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.61589E-01
+:EFG002:                        EFG         =    -0.13659   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.11829     0.03915
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.06829    0.00000    0.00000        0.06829    0.00000    0.00000
+              0.00000    0.06829    0.00000        0.00000    0.06829    0.00000
+              0.00000    0.00000   -0.13659        0.00000    0.00000   -0.13659
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1498.939123286880      0.000000000000      0.000000000000   1498.939123286880
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1104146E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1104146E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.9836862E-04
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.9836862E-04
+:DEN  : DENSITY INTEGRAL  =         -6223.80391904   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.81320   0.71151
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.61030  -0.81320  -0.79709 v5,v5c,v5x   0.17659   0.71151  -0.53493
+:VZERY:v0,v0c,v0x  -0.71989   0.00000  -0.71989 v5,v5c,v5x  -0.71989   0.00000  -0.71989
+:VZERX:v0,v0c,v0x   0.10785   0.79008  -0.68223 v5,v5c,v5x   0.10785   0.79008  -0.68223
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.2141
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.2141
+             APW+lo
+:E1_0001: E( 1)=   -3.4559   E(BOTTOM)=   -3.550   E(TOP)=   -3.362  1  2   142
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3204   E(BOTTOM)=   -0.049   E(TOP)=    0.689  0  1   139
+             APW+lo
+:E0_0001: E( 0)=    0.2141
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.2141
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.2141
+             APW+lo
+:E2_0002: E( 2)=   -3.1279   E(BOTTOM)=   -3.172   E(TOP)=   -3.083  0  1   140
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.6141
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.619   E(TOP)= -200.000  3 -1   178
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.2141
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4420416   -3.4418047   -3.4327308   -3.4326490   -3.4324123
+:EIG00006:      -3.4306573   -3.1176213   -3.1176069   -3.1175562   -3.1175528
+:EIG00011:      -3.1172074   -3.1171823   -3.1168391   -3.1167215   -3.1161765
+:EIG00016:      -3.1161281   -0.6686832   -0.5820450   -0.0303424    0.1066049
+:EIG00021:       0.1199558    0.1246790    0.1639300    0.1687710    0.2117422
+:EIG00026:       0.3489770    0.3531057    0.3930731    0.4096409    0.4108140
+:EIG00031:       0.4507173    0.4672114    0.5482407    0.5624075    0.6048687
+:EIG00036:       0.7673395    0.8235676    0.8908872    0.8988568    0.9276081
+:EIG00041:       1.2597936    1.2843076    1.3315343    1.3570364    1.3626921
+:EIG00046:       1.3708429    1.4191967    1.4572227    1.4720954    1.4995181
+ 
+:EIG00051:       1.5951864    1.6059123    1.7082590    1.7377091    1.8414385
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.094388    0.155043  2.00000000
+:BAN00023:  23    0.126840    0.186988  2.00000000
+:BAN00024:  24    0.147732    0.191388  2.00000000
+:BAN00025:  25    0.211694    0.302538  2.00000000
+:BAN00026:  26    0.260894    0.354023  2.00000000
+:BAN00027:  27    0.272536    0.358276  2.00000000
+:BAN00028:  28    0.272536    0.396169  2.00000000
+:BAN00029:  29    0.340006    0.410655  1.86675938
+:BAN00030:  30    0.340006    0.416737  1.84518263
+:BAN00031:  31    0.384056    0.490804  0.16383640
+:BAN00032:  32    0.385617    0.490804  0.12422159
+:BAN00033:  33    0.471582    0.548241  0.00000000
+:BAN00034:  34    0.471582    0.562408  0.00000000
+:BAN00035:  35    0.604869    0.866167  0.00000000
+:BAN00036:  36    0.714439    0.871715  0.00000000
+:BAN00037:  37    0.790976    0.978140  0.00000000
+        Energy to separate low and high energystates:   -0.08034
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.4004591640
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5238    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2660 6.2482 5.9890 0.0169 2.0659 4.1823 0.0000 1.3671 1.2407 1.1027 2.2786 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0404 -0.6303    6.0035 -3.4181    0.0373 -0.6156    0.0030 -0.7267
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2255  0.0400    0.2447  0.1600    5.9517  0.2863    0.0140  0.1754
+:VZZ001: EFG INSIDE SPHERE   1 =    -1.589331      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3402    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3622 1.924210.0407 0.0110 0.6605 1.2637 0.0000 2.0079 2.0068 2.0064 4.0197 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2481 -0.6019    0.0203 -0.6668    9.9767 -3.1171    0.0002 -2.6087
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.1141  0.1215    1.9039  0.1188    0.0640  0.2163    0.0108  0.3026
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.612934      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -100.926477265
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.151604653 Ry
+:2S 001: 2S                 -59.075315769 Ry
+:2PP001: 2P*                -50.878120534 Ry
+:2P 001: 2P                 -49.962889803 Ry
+:3S 001: 3S                  -5.893493063 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM    859.801566570134      0.000000000000      0.000000000000   -859.801566570134
+
+:1S 002: 1S                -916.413329726 Ry
+:2S 002: 2S                -117.077514230 Ry
+:2PP002: 2P*               -105.052016467 Ry
+:2P 002: 2P                -101.988874681 Ry
+:3S 002: 3S                 -14.817094309 Ry
+:3PP002: 3P*                -10.704534931 Ry
+:3P 002: 3P                 -10.272322075 Ry
+:CINT001 Core Integral Atom   1   11.997060
+:CINT002 Core Integral Atom   2   17.999404
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.911091        0.000000    14797.178085    14803.089176
+:RTO002:   2       56.110774        0.000000    38924.343767    38980.454541
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.271940
+:NPC   : PW Pseudocharge     =    13.735748
+:NTO001: CHARGE SPHERE  1    =    24.520866
+:NTO002: CHARGE SPHERE  2    =    31.339622
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99291
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     7.972209
+:OPC   : PW Pseudocharge     =    14.126293
+:OTO001: CHARGE SPHERE  1    =    24.579818
+:OTO002: CHARGE SPHERE  2    =    31.434078
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.3869291
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.1080365
+
+:DIS  :  CHARGE DISTANCE       ( 0.3869291 for atom    1 spin 1)      0.2474828
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Slow Mode, cautious                                *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Step Trust Radius    0.75000                       *
+* Trust Upper Limit    2.000E+00                     *
+* Max Number of Memory Steps   12                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.7312 DISTAN   3.69E-01  9.89E+00 %
+:CHARG:  CLM/ATOM    303.3558 DISTAN   3.67E-01  1.21E-01 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.16E-02  2.73E-02  1.00E+00
+:JACOBIANS    7.489E-01   4.488E-04
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.9998E+00  0.5052E+00  0.1010E+01  0.9998E+00
+:INFO :  Number of Memory Steps    2 Skipping    0
+:INFO :  SLambda=    0.0251794023  Max    0.0251794023
+:PREDicted Charge, CTotal, PW Trust    5.251E-04   1.772E-03   3.336E-01
+:PREDicted DMix, Beta, BLim   8.6204E-02  9.8999E-01  4.3413E-01
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   3.330669E-16   0.000000E+00   1.999167E+00   1.999999E+00   1.012783E-06   0.000000E+00
+   2   1.998661E+00   0.000000E+00   0.000000E+00   1.012508E-06   2.050324E+00   0.000000E+00
+ 
+:INFO :  Singular value  2.050E+00 Weight  1.000E+00 Projection -4.389E-04
+:INFO :  Singular value  1.013E-06 Weight  2.564E-05 Projection  1.412E-02
+:RANK :  ACTIVE   1.00/2  =  50.00 % ; YY RANK   1.00/2  =  50.00 %
+ 
+:DLIM :  Beta Active  9.925E-01
+:BLIM :  VZERO Control Off
+:TRUST:  Step 2.11E-01  Charge 7.50E-02 (e) CTO  2.50E-01 (e) PW  3.50E-01 (e)
+:DIRM :  MEMORY  2/12 SCALE   1.000 RED  0.95 PRED  1.00 NEXT  1.00 BETA  0.99
+:TRAVE:  Charge 5.53E-03 (e) CTO  1.79E-02 (e) PW  1.84E-03 (e)
+:DIRP :  |MSR1|= 2.165E-02 |PRATT|= 3.691E-01 ANGLE=   1.6 DEGREES
+:DIRQ :  |MSR1|= 4.296E-02 |PRATT|= 7.344E-01 ANGLE=   0.0 DEGREES
+:DIRT :  |MSR1|= 4.811E-02 |PRATT|= 8.220E-01 ANGLE=   0.7 DEGREES
+:MIX  :   MSD1   REGULARIZATION:  2.00E-04 GREED: 0.05851  Newton 1.00  0.0585                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     7.990157
+:CPC   : PW Pseudocharge     =    14.105324
+:CTO001: CHARGE SPHERE  1    =    24.576369
+:CTO002: CHARGE SPHERE  2    =    31.428552
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.16675551E-02 -5.697E-06 -1.357E-04
+:PTO002:      0    0   -1  1.63115716E-02  1.633E-04  2.756E-03
+:PTO004:     -1    0   -1 -8.99213213E-02  1.929E-05  4.475E-04
+:PTO005:      0    0   -2 -9.90119140E-03  1.696E-05  2.835E-04
+:PTO006:     -1   -1    0 -1.99220734E-02 -3.600E-05 -6.265E-04
+:PTO007:     -1   -1   -1  2.67813422E-02 -1.285E-04 -2.338E-03
+:PTO008:     -1    0   -2  1.04341720E-02 -1.495E-04 -2.581E-03
+:PTO009:     -1   -1   -2  2.98156726E-02 -1.935E-04 -3.503E-03
+:PTO010:     -2    0    0 -1.39763212E-02  8.668E-05  1.579E-03
+:PTO011:      0    0   -3  2.78669070E-03 -5.289E-05 -9.379E-04
+:PTO012:     -2    0   -1  1.09111779E-04  2.258E-04  3.950E-03
+:PTO014:     -1    0   -3  1.02190030E-02 -1.103E-04 -1.958E-03
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.77518351
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM        639.138          0.000          0.000        639.138 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        639.138 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   639.137556717 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE004:  4. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.327E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.21024E+00
+:EFG001:                        EFG         =    -0.20313   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.17592    -0.08228
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.10157    0.00000    0.00000        0.10157    0.00000    0.00000
+              0.00000    0.10157    0.00000        0.00000    0.10157    0.00000
+              0.00000    0.00000   -0.20313        0.00000    0.00000   -0.20313
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.60939E-01
+:EFG002:                        EFG         =    -0.45723   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.39597     0.03506
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.22861    0.00000    0.00000        0.22861    0.00000    0.00000
+              0.00000    0.22861    0.00000        0.00000    0.22861    0.00000
+              0.00000    0.00000   -0.45723        0.00000    0.00000   -0.45723
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1278.165601860020      0.000000000000      0.000000000000   1278.165601860020
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1132908E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1132908E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.1106478E-03
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.1106478E-03
+:DEN  : DENSITY INTEGRAL  =         -6222.91569318   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.80197   0.70042
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.60091  -0.80197  -0.79893 v5,v5c,v5x   0.16707   0.70042  -0.53335
+:VZERY:v0,v0c,v0x  -0.71974   0.00000  -0.71974 v5,v5c,v5x  -0.71974   0.00000  -0.71974
+:VZERX:v0,v0c,v0x   0.10808   0.79078  -0.68271 v5,v5c,v5x   0.10808   0.79078  -0.68271
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.2050
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.2050
+             APW+lo
+:E1_0001: E( 1)=   -3.4610   E(BOTTOM)=   -3.554   E(TOP)=   -3.368  1  2   153
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3176   E(BOTTOM)=   -0.049   E(TOP)=    0.684  0  1   139
+             APW+lo
+:E0_0001: E( 0)=    0.2050
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.2050
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.2050
+             APW+lo
+:E2_0002: E( 2)=   -3.1341   E(BOTTOM)=   -3.179   E(TOP)=   -3.090  0  1   142
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.6050
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.621   E(TOP)= -200.000  3 -1   186
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.2050
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4472978   -3.4470635   -3.4380079   -3.4378418   -3.4377739
+:EIG00006:      -3.4357922   -3.1238106   -3.1237965   -3.1237456   -3.1237421
+:EIG00011:      -3.1233582   -3.1233328   -3.1232212   -3.1231054   -3.1225687
+:EIG00016:      -3.1225215   -0.6683455   -0.5822182   -0.0307130    0.1069160
+:EIG00021:       0.1197954    0.1244393    0.1640380    0.1688173    0.2115018
+:EIG00026:       0.3457062    0.3505514    0.3901845    0.4068865    0.4079654
+:EIG00031:       0.4478255    0.4634457    0.5454222    0.5585404    0.6045528
+:EIG00036:       0.7661881    0.8222748    0.8910913    0.8995314    0.9272395
+:EIG00041:       1.2563680    1.2850372    1.3296230    1.3548193    1.3611957
+:EIG00046:       1.3730828    1.4183529    1.4572358    1.4694115    1.4984832
+ 
+:EIG00051:       1.5928425    1.6030307    1.7078956    1.7375383    1.8419881
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.093110    0.154687  2.00000000
+:BAN00023:  23    0.127778    0.187658  2.00000000
+:BAN00024:  24    0.147874    0.191954  2.00000000
+:BAN00025:  25    0.211455    0.301333  2.00000000
+:BAN00026:  26    0.259490    0.350481  2.00000000
+:BAN00027:  27    0.272839    0.355716  2.00000000
+:BAN00028:  28    0.273141    0.394190  2.00000000
+:BAN00029:  29    0.338273    0.407805  1.86598030
+:BAN00030:  30    0.338273    0.414320  1.84344456
+:BAN00031:  31    0.381107    0.487348  0.16473415
+:BAN00032:  32    0.382638    0.487348  0.12584099
+:BAN00033:  33    0.467835    0.545422  0.00000000
+:BAN00034:  34    0.467835    0.558540  0.00000000
+:BAN00035:  35    0.604553    0.865343  0.00000000
+:BAN00036:  36    0.713534    0.871120  0.00000000
+:BAN00037:  37    0.788417    0.977180  0.00000000
+        Energy to separate low and high energystates:   -0.08071
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3977633385
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5363    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2635 6.2447 6.0078 0.0167 2.0654 4.1793 0.0000 1.3698 1.2415 1.1100 2.2864 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0395 -0.6300    6.0031 -3.4237    0.0367 -0.6158    0.0029 -0.7270
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2240  0.0405    0.2416  0.1598    5.9711  0.2847    0.0137  0.1737
+:VZZ001: EFG INSIDE SPHERE   1 =    -1.559540      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3438    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3618 1.930110.0390 0.0108 0.6627 1.2674 0.0000 2.0076 2.0066 2.0063 4.0185 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2536 -0.6020    0.0182 -0.6718    9.9768 -3.1234    0.0002 -2.6056
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.1082  0.1209    1.9119  0.1178    0.0622  0.2184    0.0106  0.3016
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.670411      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -101.139419142
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.170255994 Ry
+:2S 001: 2S                 -59.092515466 Ry
+:2PP001: 2P*                -50.895669791 Ry
+:2P 001: 2P                 -49.980404123 Ry
+:3S 001: 3S                  -5.899533993 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM    762.501033751586      0.000000000000      0.000000000000   -762.501033751586
+
+:1S 002: 1S                -916.423012401 Ry
+:2S 002: 2S                -117.086198564 Ry
+:2PP002: 2P*               -105.060877676 Ry
+:2P 002: 2P                -101.997711296 Ry
+:3S 002: 3S                 -14.823614413 Ry
+:3PP002: 3P*                -10.711022227 Ry
+:3P 002: 3P                 -10.278755845 Ry
+:CINT001 Core Integral Atom   1   11.997083
+:CINT002 Core Integral Atom   2   17.999405
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.848632        0.000000    14797.419670    14803.268302
+:RTO002:   2       56.103894        0.000000    38924.427876    38980.531770
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.239770
+:NPC   : PW Pseudocharge     =    13.707789
+:NTO001: CHARGE SPHERE  1    =    24.533386
+:NTO002: CHARGE SPHERE  2    =    31.343211
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99296
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     7.990157
+:OPC   : PW Pseudocharge     =    14.105324
+:OTO001: CHARGE SPHERE  1    =    24.576369
+:OTO002: CHARGE SPHERE  2    =    31.428552
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.3122473
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0949699
+
+:DIS  :  CHARGE DISTANCE       ( 0.3122473 for atom    1 spin 1)      0.2036086
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.7278 DISTAN   3.40E-01  9.12E+00 %
+:CHARG:  CLM/ATOM    303.3522 DISTAN   3.16E-01  1.04E-01 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02  9.52E-01  1.00E+00 -1.00E+01  2.52E-02  3.16E-02  2.73E-02  1.00E+00
+  4   5.8510E-02   5.8510E-02 -1.00E+00  1.00E+00  2.11E-01  1.00E+00  5.85E-02  4.81E-02  9.92E-01
+:JACOBIANS    8.961E-01   1.531E-01
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.8116E+00  0.4292E+00  0.9994E+00  0.9344E+00
+:INFO :  Number of Memory Steps    3 Skipping    0
+:INFO :  SLambda=    1.3713055527  Max    1.3713055527
+:PREDicted Charge, CTotal, PW Trust    3.797E-02   1.233E-01   2.863E-03
+:PREDicted DMix, Beta, BLim   3.4662E-01  3.4422E+00  3.8825E-01
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   1.844413E+00   0.000000E+00   1.810550E+00   2.073639E+00   4.545812E+00   0.000000E+00
+   2  -9.067328E-16   0.000000E+00   1.656023E-01   9.263606E-01   5.121984E-07   0.000000E+00
+   3   3.604988E-01   0.000000E+00   3.978804E-17   5.416004E-07   1.477795E+00   0.000000E+00
+ 
+:INFO :  Singular value  4.546E+00 Weight  1.000E+00 Projection  1.036E-01
+:INFO :  Singular value  1.478E+00 Weight  1.000E+00 Projection  6.429E-01
+:INFO :  Singular value  5.122E-07 Weight  6.101E-06 Projection -8.285E-04
+:RANK :  ACTIVE   2.00/3  =  66.67 % ; YY RANK   2.00/3  =  66.67 %
+ 
+:BLIM :  VZERO Control Off
+:TRUST:  Step 3.55E-01  Charge 7.50E-02 (e) CTO  2.50E-01 (e) PW  3.50E-01 (e)
+:DTRUS:  Lambda    3.202E-01 Increment    7.276E-12 Iterations   104 DMIX    1.438E-01
+:INFOA:  Angle SubSpace to MSR1      2.37
+:DIRM :  MEMORY  3/8  SCALE   1.000 RED  0.87 PRED  1.00 NEXT  0.55 
+:INFO :  Limited by Atoms F by Step T
+
+:TRAVE:  Charge 1.85E-02 (e) CTO  5.06E-02 (e) PW  2.47E-02 (e)
+:DIRP :  |MSR1|= 1.302E-01 |PRATT|= 3.398E-01 ANGLE=   4.8 DEGREES
+:DIRQ :  |MSR1|= 2.194E-01 |PRATT|= 6.322E-01 ANGLE=   8.0 DEGREES
+:DIRT :  |MSR1|= 2.552E-01 |PRATT|= 7.177E-01 ANGLE=   7.7 DEGREES
+:MIX  :   MSE1   REGULARIZATION:  2.07E-04 GREED: 0.14628  LMStep 0.88  0.3555 Step           
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     8.073460
+:CPC   : PW Pseudocharge     =    13.943939
+:CTO001: CHARGE SPHERE  1    =    24.566273
+:CTO002: CHARGE SPHERE  2    =    31.396998
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.15203070E-02 -1.472E-04 -2.436E-04
+:PTO002:      0    0   -1  1.69864550E-02  6.749E-04  2.216E-03
+:PTO004:     -1    0   -1 -8.98643967E-02  5.692E-05  3.415E-04
+:PTO005:      0    0   -2 -9.86697400E-03  3.422E-05  1.893E-04
+:PTO006:     -1   -1    0 -2.01889395E-02 -2.669E-04 -6.311E-04
+:PTO007:     -1   -1   -1  2.61120864E-02 -6.693E-04 -2.036E-03
+:PTO008:     -1    0   -2  9.75117624E-03 -6.830E-04 -2.148E-03
+:PTO009:     -1   -1   -2  2.86040405E-02 -1.212E-03 -3.269E-03
+:PTO010:     -2    0    0 -1.34795489E-02  4.968E-04  1.424E-03
+:PTO011:      0    0   -3  2.50148410E-03 -2.852E-04 -8.278E-04
+:PTO012:     -2    0   -1  1.50144181E-03  1.392E-03  3.675E-03
+:PTO014:     -1    0   -3  9.48376012E-03 -7.352E-04 -1.878E-03
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.76088453
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM        515.665          0.000          0.000        515.665 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        515.665 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   515.664568108 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE005:  5. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.330E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.25975E+00
+:EFG001:                        EFG         =    -0.68945   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.59709    -0.02242
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.34473    0.00000    0.00000        0.34473    0.00000    0.00000
+              0.00000    0.34473    0.00000        0.00000    0.34473    0.00000
+              0.00000    0.00000   -0.68945        0.00000    0.00000   -0.68945
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.56878E-01
+:EFG002:                        EFG         =    -2.53234   *10**21  V / m**2
+                               V20  TOT/SRF=    -2.19307     0.01302
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              1.26617    0.00000    0.00000        1.26617    0.00000    0.00000
+              0.00000    1.26617    0.00000        0.00000    1.26617    0.00000
+              0.00000    0.00000   -2.53234        0.00000    0.00000   -2.53234
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM    348.237866461913      0.000000000000      0.000000000000    348.237866461913
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1316950E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1316950E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.2010532E-03
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.2010532E-03
+:DEN  : DENSITY INTEGRAL  =         -6219.35380037   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.73678   0.64123
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.54415  -0.73678  -0.80737 v5,v5c,v5x   0.11653   0.64123  -0.52470
+:VZERY:v0,v0c,v0x  -0.71807   0.00000  -0.71807 v5,v5c,v5x  -0.71807   0.00000  -0.71807
+:VZERX:v0,v0c,v0x   0.10764   0.79240  -0.68476 v5,v5c,v5x   0.10764   0.79240  -0.68476
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.2002
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.2002
+             APW+lo
+:E1_0001: E( 1)=   -3.4709   E(BOTTOM)=   -3.562   E(TOP)=   -3.380  1  2   150
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3170   E(BOTTOM)=   -0.039   E(TOP)=    0.673  0  1   135
+             APW+lo
+:E0_0001: E( 0)=    0.2002
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.2002
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.2002
+             APW+lo
+:E2_0002: E( 2)=   -3.1685   E(BOTTOM)=   -3.212   E(TOP)=   -3.125  0  1   137
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.6002
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.635   E(TOP)= -200.000  3 -1   182
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.2002
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4582356   -3.4580121   -3.4493522   -3.4491290   -3.4468002
+:EIG00006:      -3.4448466   -3.1583698   -3.1582514   -3.1578507   -3.1578374
+:EIG00011:      -3.1577946   -3.1577878   -3.1577838   -3.1577480   -3.1571863
+:EIG00016:      -3.1571622   -0.6695894   -0.5856720   -0.0308259    0.1126034
+:EIG00021:       0.1232448    0.1274433    0.1646092    0.1690753    0.2202507
+:EIG00026:       0.3401494    0.3491722    0.3836915    0.4043179    0.4065841
+:EIG00031:       0.4383226    0.4579343    0.5351114    0.5453675    0.6040899
+:EIG00036:       0.7647783    0.8177448    0.8936770    0.9044154    0.9261308
+:EIG00041:       1.2396795    1.2878825    1.3203920    1.3448561    1.3525497
+:EIG00046:       1.3840852    1.4142301    1.4567384    1.4581463    1.4929583
+ 
+:EIG00051:       1.5814345    1.5891990    1.7046308    1.7374227    1.8444548
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.084586    0.153006  2.00000000
+:BAN00023:  23    0.132691    0.191913  2.00000000
+:BAN00024:  24    0.146174    0.195882  2.00000000
+:BAN00025:  25    0.220217    0.305851  2.00000000
+:BAN00026:  26    0.262759    0.342484  2.00000000
+:BAN00027:  27    0.278488    0.354712  2.00000000
+:BAN00028:  28    0.281540    0.390319  2.00000000
+:BAN00029:  29    0.341564    0.406402  1.85296120
+:BAN00030:  30    0.341564    0.413268  1.82644353
+:BAN00031:  31    0.379296    0.477288  0.18177378
+:BAN00032:  32    0.380737    0.477288  0.13882149
+:BAN00033:  33    0.461331    0.535111  0.00000000
+:BAN00034:  34    0.461331    0.545367  0.00000000
+:BAN00035:  35    0.604090    0.864430  0.00000000
+:BAN00036:  36    0.710276    0.869706  0.00000000
+:BAN00037:  37    0.778884    0.974991  0.00000000
+        Energy to separate low and high energystates:   -0.08083
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3958467294
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5128    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2502 6.2288 6.0148 0.0156 2.0636 4.1652 0.0000 1.3647 1.2366 1.1372 2.2762 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0348 -0.6313    6.0004 -3.4359    0.0329 -0.6203    0.0027 -0.7322
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2153  0.0442    0.2283  0.1618    5.9819  0.2877    0.0129  0.1701
+:VZZ001: EFG INSIDE SPHERE   1 =    -0.642950      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3985    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3606 1.993710.0324 0.0099 0.6852 1.3085 0.0000 2.0066 2.0063 2.0064 4.0131 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2809 -0.6050    0.0094 -0.7231    9.9773 -3.1578    0.0002 -2.6395
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.0797  0.1201    1.9843  0.1152    0.0551  0.2399    0.0097  0.3063
+:VZZ002: EFG INSIDE SPHERE   2 =    -6.123345      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -101.942363223
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.229601907 Ry
+:2S 001: 2S                 -59.149327403 Ry
+:2PP001: 2P*                -50.953407545 Ry
+:2P 001: 2P                 -50.038039773 Ry
+:3S 001: 3S                  -5.913153256 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM    408.219149399542      0.000000000000      0.000000000000   -408.219149399542
+
+:1S 002: 1S                -916.473483914 Ry
+:2S 002: 2S                -117.131909648 Ry
+:2PP002: 2P*               -105.107413660 Ry
+:2P 002: 2P                -102.044132096 Ry
+:3S 002: 3S                 -14.859458999 Ry
+:3PP002: 3P*                -10.746682028 Ry
+:3P 002: 3P                 -10.314160741 Ry
+:CINT001 Core Integral Atom   1   11.997174
+:CINT002 Core Integral Atom   2   17.999412
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.511218        0.000000    14798.339809    14803.851026
+:RTO002:   2       56.115924        0.000000    38924.826407    38980.942331
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.177434
+:NPC   : PW Pseudocharge     =    13.644515
+:NTO001: CHARGE SPHERE  1    =    24.509931
+:NTO002: CHARGE SPHERE  2    =    31.397931
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99316
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     8.073460
+:OPC   : PW Pseudocharge     =    13.943939
+:OTO001: CHARGE SPHERE  1    =    24.566273
+:OTO002: CHARGE SPHERE  2    =    31.396998
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.0984561
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0357106
+
+:DIS  :  CHARGE DISTANCE       ( 0.0984561 for atom    1 spin 1)      0.0670834
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.7038 DISTAN   1.93E-01  5.20E+00 %
+:CHARG:  CLM/ATOM    303.3365 DISTAN   1.43E-01  4.72E-02 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02  9.52E-01  1.00E+00 -1.00E+01  2.52E-02  3.16E-02  2.73E-02  1.00E+00
+  4   5.8510E-02   5.8510E-02  8.73E-01  1.00E+00  2.11E-01  1.37E+00  5.85E-02  4.81E-02  9.92E-01
+  5   1.4628E-01   1.4380E-01 -1.00E+00  5.52E-01  3.55E-01  1.00E+00  3.55E-01  2.55E-01  1.00E+00
+:JACOBIANS    1.045E+00   3.653E-01
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.6774E+00  0.4235E+00  0.9994E+00  0.6931E+00
+:INFO :  Number of Memory Steps    4 Skipping    0
+:INFO :  SLambda=    1.1764653048  Max    1.1764653048
+:PREDicted Charge, CTotal, PW Trust    6.067E-02   1.426E-01   1.016E-01
+:PREDicted DMix, Beta, BLim   3.1000E-01  1.6645E+00  6.5069E-01
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   1.665410E+00   0.000000E+00   1.261743E+00   3.200465E+00   5.111983E+00   0.000000E+00
+   2   7.056293E-01   0.000000E+00   5.734296E-01   7.968849E-01   1.674674E+00   0.000000E+00
+   3  -1.476156E-16   0.000000E+00   2.005881E-04   2.649741E-03   1.158741E-07   0.000000E+00
+   4   6.126076E-04   0.000000E+00  -3.111013E-17   1.210577E-07   3.508922E-03   0.000000E+00
+ 
+:INFO :  Singular value  5.112E+00 Weight  1.000E+00 Projection  1.203E-01
+:INFO :  Singular value  1.675E+00 Weight  1.000E+00 Projection  1.162E-01
+:INFO :  Singular value  3.509E-03 Weight  9.917E-01 Projection -3.096E+00
+:INFO :  Singular value  1.159E-07 Weight  1.311E-07 Projection -2.829E-05
+:RANK :  ACTIVE   2.99/4  =  74.79 % ; YY RANK   2.99/4  =  74.64 %
+ 
+:BLIM :  VZERO Control Off
+:TRUST:  Step 4.74E-01  Charge 7.50E-02 (e) CTO  2.50E-01 (e) PW  3.50E-01 (e)
+:DTRUS:  Lambda    1.688E+00 Increment    7.276E-12 Iterations   108 DMIX    1.836E-01
+:INFOA:  Angle SubSpace to MSR1      4.06
+:DIRM :  MEMORY  4/8  SCALE   1.000 RED  0.48 PRED  0.55 NEXT  0.79 
+:INFO :  Limited by Atoms F by Step T
+
+:TRAVE:  Charge 2.27E-02 (e) CTO  5.27E-02 (e) PW  3.27E-02 (e)
+:DIRP :  |MSR1|= 9.041E-02 |PRATT|= 1.925E-01 ANGLE=   3.7 DEGREES
+:DIRQ :  |MSR1|= 1.364E-01 |PRATT|= 2.865E-01 ANGLE=   3.4 DEGREES
+:DIRT :  |MSR1|= 1.636E-01 |PRATT|= 3.452E-01 ANGLE=   3.5 DEGREES
+:MIX  :   MSE1   REGULARIZATION:  3.20E-04 GREED: 0.20274  LMStep 0.72  0.4740 Step           
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     8.128216
+:CPC   : PW Pseudocharge     =    13.822308
+:CTO001: CHARGE SPHERE  1    =    24.539331
+:CTO002: CHARGE SPHERE  2    =    31.396561
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.13941962E-02 -1.261E-04 -3.341E-04
+:PTO002:      0    0   -1  1.68519778E-02 -1.345E-04 -4.313E-04
+:PTO004:     -1    0   -1 -9.02962959E-02 -4.319E-04 -8.354E-04
+:PTO005:      0    0   -2 -1.00299827E-02 -1.630E-04 -3.804E-04
+:PTO006:     -1   -1    0 -2.06148192E-02 -4.259E-04 -9.434E-04
+:PTO007:     -1   -1   -1  2.58884629E-02 -2.236E-04 -5.866E-04
+:PTO008:     -1    0   -2  9.80272813E-03  5.155E-05  1.662E-04
+:PTO009:     -1   -1   -2  2.78494515E-02 -7.546E-04 -1.815E-03
+:PTO010:     -2    0    0 -1.32528958E-02  2.267E-04  5.722E-04
+:PTO011:      0    0   -3  2.40210375E-03 -9.938E-05 -2.332E-04
+:PTO012:     -2    0   -1  2.44794938E-03  9.465E-04  2.111E-03
+:PTO014:     -1    0   -3  8.95529173E-03 -5.285E-04 -1.214E-03
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.72457791
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM         59.981          0.000          0.000        -59.981 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        -59.981 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   -59.981282938 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE006:  6. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.332E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.26446E+00
+:EFG001:                        EFG         =    -0.68918   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.59685    -0.01822
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.34459    0.00000    0.00000        0.34459    0.00000    0.00000
+              0.00000    0.34459    0.00000        0.00000    0.34459    0.00000
+              0.00000    0.00000   -0.68918        0.00000    0.00000   -0.68918
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.62151E-01
+:EFG002:                        EFG         =    -4.19189   *10**21  V / m**2
+                               V20  TOT/SRF=    -3.63028     0.00542
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              2.09594    0.00000    0.00000        2.09594    0.00000    0.00000
+              0.00000    2.09594    0.00000        0.00000    2.09594    0.00000
+              0.00000    0.00000   -4.19189        0.00000    0.00000   -4.19189
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM    732.913012208309      0.000000000000      0.000000000000    732.913012208309
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1455596E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1455596E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.2678779E-03
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.2678779E-03
+:DEN  : DENSITY INTEGRAL  =         -6217.61778640   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.72882   0.63438
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.54076  -0.72882  -0.81194 v5,v5c,v5x   0.11184   0.63438  -0.52254
+:VZERY:v0,v0c,v0x  -0.71706   0.00000  -0.71706 v5,v5c,v5x  -0.71706   0.00000  -0.71706
+:VZERX:v0,v0c,v0x   0.10633   0.79218  -0.68585 v5,v5c,v5x   0.10633   0.79218  -0.68585
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.1973
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.1973
+             APW+lo
+:E1_0001: E( 1)=   -3.5011   E(BOTTOM)=   -3.591   E(TOP)=   -3.411  1  2   144
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.2919   E(BOTTOM)=   -0.059   E(TOP)=    0.643  0  1   134
+             APW+lo
+:E0_0001: E( 0)=    0.1973
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.1973
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.1973
+             APW+lo
+:E2_0002: E( 2)=   -3.1690   E(BOTTOM)=   -3.213   E(TOP)=   -3.125  0  1   140
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.5973
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.632   E(TOP)= -200.000  3 -1   181
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.1973
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4895204   -3.4893024   -3.4808524   -3.4806347   -3.4755587
+:EIG00006:      -3.4736482   -3.1592097   -3.1591068   -3.1586829   -3.1586390
+:EIG00011:      -3.1581314   -3.1581173   -3.1580630   -3.1580595   -3.1573233
+:EIG00016:      -3.1572993   -0.6683240   -0.5841699   -0.0324846    0.1037524
+:EIG00021:       0.1145841    0.1187984    0.1622319    0.1667479    0.1996300
+:EIG00026:       0.3217611    0.3292093    0.3669440    0.3801737    0.3820402
+:EIG00031:       0.4278439    0.4300158    0.5222822    0.5313999    0.6013242
+:EIG00036:       0.7543691    0.8106930    0.8912844    0.9022539    0.9236330
+:EIG00041:       1.2359883    1.2850445    1.3169288    1.3404339    1.3506441
+:EIG00046:       1.3820233    1.4111756    1.4529990    1.4558718    1.4917942
+ 
+:EIG00051:       1.5784109    1.5865054    1.7016110    1.7344309    1.8440427
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.083325    0.149888  2.00000000
+:BAN00023:  23    0.125145    0.188778  2.00000000
+:BAN00024:  24    0.144435    0.192338  2.00000000
+:BAN00025:  25    0.199579    0.284178  2.00000000
+:BAN00026:  26    0.243892    0.325534  2.00000000
+:BAN00027:  27    0.262330    0.334200  2.00000000
+:BAN00028:  28    0.264857    0.377236  1.99099976
+:BAN00029:  29    0.319634    0.380174  1.88202770
+:BAN00030:  30    0.319634    0.391607  1.84014952
+:BAN00031:  31    0.356011    0.461845  0.16066487
+:BAN00032:  32    0.356011    0.461845  0.12615814
+:BAN00033:  33    0.437548    0.522282  0.00000000
+:BAN00034:  34    0.437548    0.531400  0.00000000
+:BAN00035:  35    0.601324    0.856250  0.00000000
+:BAN00036:  36    0.701267    0.862111  0.00000000
+:BAN00037:  37    0.771516    0.969931  0.00000000
+        Energy to separate low and high energystates:   -0.08248
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3727530116
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.6661    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2499 6.2226 6.1752 0.0150 2.0611 4.1615 0.0000 1.3833 1.2711 1.1687 2.3521 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0350 -0.6297    6.0011 -3.4663    0.0337 -0.6179    0.0027 -0.7312
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2149  0.0416    0.2216  0.1543    6.1415  0.2669    0.0124  0.1602
+:VZZ001: EFG INSIDE SPHERE   1 =    -0.132201      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3317    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3593 1.931810.0292 0.0095 0.6611 1.2707 0.0000 2.0058 2.0055 2.0057 4.0123 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2796 -0.6035    0.0091 -0.7219    9.9773 -3.1583    0.0002 -2.6756
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.0797  0.1185    1.9227  0.1104    0.0519  0.2215    0.0093  0.2857
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.023058      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -102.607706276
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.274071125 Ry
+:2S 001: 2S                 -59.197334816 Ry
+:2PP001: 2P*                -51.001128749 Ry
+:2P 001: 2P                 -50.085773674 Ry
+:3S 001: 3S                  -5.945371267 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM    735.258126331322      0.000000000000      0.000000000000   -735.258126331322
+
+:1S 002: 1S                -916.472700913 Ry
+:2S 002: 2S                -117.131450374 Ry
+:2PP002: 2P*               -105.106869249 Ry
+:2P 002: 2P                -102.043597977 Ry
+:3S 002: 3S                 -14.860230931 Ry
+:3PP002: 3P*                -10.747393426 Ry
+:3P 002: 3P                 -10.314881424 Ry
+:CINT001 Core Integral Atom   1   11.997225
+:CINT002 Core Integral Atom   2   17.999412
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.493985        0.000000    14798.683569    14804.177553
+:RTO002:   2       56.065742        0.000000    38924.808104    38980.873846
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.004488
+:NPC   : PW Pseudocharge     =    13.478313
+:NTO001: CHARGE SPHERE  1    =    24.663280
+:NTO002: CHARGE SPHERE  2    =    31.331107
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99326
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     8.128216
+:OPC   : PW Pseudocharge     =    13.822308
+:OTO001: CHARGE SPHERE  1    =    24.539331
+:OTO002: CHARGE SPHERE  2    =    31.396561
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.2184604
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0448542
+
+:DIS  :  CHARGE DISTANCE       ( 0.2184604 for atom    1 spin 1)      0.1316573
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.6930 DISTAN   1.16E-01  3.15E+00 %
+:CHARG:  CLM/ATOM    303.3341 DISTAN   1.67E-01  5.52E-02 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02  9.52E-01  1.00E+00 -1.00E+01  2.52E-02  3.16E-02  2.73E-02  1.00E+00
+  4   5.8510E-02   5.8510E-02  8.73E-01  1.00E+00  2.11E-01  1.37E+00  5.85E-02  4.81E-02  9.92E-01
+  5   1.4628E-01   1.4380E-01  4.81E-01  5.52E-01  3.55E-01  1.18E+00  3.55E-01  2.55E-01  1.00E+00
+  6   2.0274E-01   1.8362E-01 -1.00E+00  7.91E-01  4.74E-01  1.00E+00  4.74E-01  1.64E-01  1.00E+00
+:JACOBIANS    1.148E+00   5.216E-01
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.5677E+00  0.4633E+00  0.9994E+00  0.5767E+00
+:INFO :  Number of Memory Steps    5 Skipping    0
+:INFO :  SLambda=    1.7646979571  Max    1.7646979571
+:PREDicted Charge, CTotal, PW Trust    2.427E-02   5.564E-02   1.333E-01
+:PREDicted DMix, Beta, BLim   2.5179E-01  1.3371E+00  1.3911E+00
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   1.607420E+00   0.000000E+00   1.089206E+00   4.227820E+00   7.011500E+00   0.000000E+00
+   2   5.987874E-01   0.000000E+00   5.143776E-01   6.677210E-01   1.771089E+00   0.000000E+00
+   3   1.886816E-02   0.000000E+00   7.810180E-03   1.040583E-01   1.434738E-01   0.000000E+00
+   4  -1.707000E-17   0.000000E+00   3.099640E-05   4.002244E-04   4.334357E-08   0.000000E+00
+   5   2.104900E-04   0.000000E+00   7.695125E-17   4.375148E-08   8.955525E-04   0.000000E+00
+ 
+:INFO :  Singular value  7.018E+00 Weight  1.000E+00 Projection -5.580E-02
+:INFO :  Singular value  1.772E+00 Weight  1.000E+00 Projection -3.810E-02
+:INFO :  Singular value  1.433E-01 Weight  1.000E+00 Projection  2.313E-01
+:INFO :  Singular value  8.956E-04 Weight  8.177E-01 Projection  1.079E+01
+:INFO :  Singular value  4.334E-08 Weight  1.051E-08 Projection -1.798E-07
+:RANK :  ACTIVE   3.82/5  =  76.35 % ; YY RANK   3.47/5  =  69.45 %
+ 
+:BLIM :  VZERO Control Off
+:TRUST:  Step 8.85E-01  Charge 6.82E-02 (e) CTO  2.27E-01 (e) PW  3.50E-01 (e)
+:DIRM :  MEMORY  5/8  SCALE   1.000 RED  1.03 PRED  0.79 NEXT  0.25 
+:TRAVE:  Charge 1.58E-02 (e) CTO  2.76E-02 (e) PW  6.08E-02 (e)
+:DIRP :  |MSR1|= 7.161E-02 |PRATT|= 1.163E-01 ANGLE=  22.3 DEGREES
+:DIRQ :  |MSR1|= 1.065E-01 |PRATT|= 3.350E-01 ANGLE=  42.2 DEGREES
+:DIRT :  |MSR1|= 1.283E-01 |PRATT|= 3.546E-01 ANGLE=  41.4 DEGREES
+:MIX  :   MSE1   REGULARIZATION:  4.23E-04 GREED: 0.20045  Newton 1.00  0.3619                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     8.130754
+:CPC   : PW Pseudocharge     =    13.673613
+:CTO001: CHARGE SPHERE  1    =    24.546856
+:CTO002: CHARGE SPHERE  2    =    31.387767
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.11185737E-02 -2.756E-04 -8.479E-04
+:PTO002:      0    0   -1  1.65136367E-02 -3.383E-04 -3.985E-04
+:PTO004:     -1    0   -1 -9.03802841E-02 -8.399E-05  9.502E-04
+:PTO005:      0    0   -2 -1.01579408E-02 -1.280E-04  4.380E-05
+:PTO006:     -1   -1    0 -2.08762421E-02 -2.614E-04  1.372E-04
+:PTO007:     -1   -1   -1  2.57000080E-02 -1.885E-04 -3.012E-04
+:PTO008:     -1    0   -2  9.94085059E-03  1.381E-04 -8.435E-05
+:PTO009:     -1   -1   -2  2.71514588E-02 -6.980E-04 -1.081E-03
+:PTO010:     -2    0    0 -1.30339333E-02  2.190E-04  3.886E-04
+:PTO011:      0    0   -3  2.34322984E-03 -5.887E-05 -8.657E-05
+:PTO012:     -2    0   -1  3.17285958E-03  7.249E-04  9.054E-04
+:PTO014:     -1    0   -3  8.49502635E-03 -4.603E-04 -6.842E-04
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.72572068
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM          2.345          0.000          0.000         -2.345 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000         -2.345 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000    -2.345114123 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE007:  7. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.333E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.26986E+00
+:EFG001:                        EFG         =    -0.42295   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.36629    -0.01641
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.21148    0.00000    0.00000        0.21148    0.00000    0.00000
+              0.00000    0.21148    0.00000        0.00000    0.21148    0.00000
+              0.00000    0.00000   -0.42295        0.00000    0.00000   -0.42295
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.61346E-01
+:EFG002:                        EFG         =    -5.27264   *10**21  V / m**2
+                               V20  TOT/SRF=    -4.56624     0.00111
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              2.63632    0.00000    0.00000        2.63632    0.00000    0.00000
+              0.00000    2.63632    0.00000        0.00000    2.63632    0.00000
+              0.00000    0.00000   -5.27264        0.00000    0.00000   -5.27264
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1152.403365974639      0.000000000000      0.000000000000   1152.403365974639
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1565540E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1565540E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.3235289E-03
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.3235289E-03
+:DEN  : DENSITY INTEGRAL  =         -6218.79285853   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.70949   0.62678
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.52293  -0.70949  -0.81344 v5,v5c,v5x   0.10551   0.62678  -0.52127
+:VZERY:v0,v0c,v0x  -0.71527   0.00000  -0.71527 v5,v5c,v5x  -0.71527   0.00000  -0.71527
+:VZERX:v0,v0c,v0x   0.10260   0.78855  -0.68595 v5,v5c,v5x   0.10260   0.78855  -0.68595
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.1809
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.1809
+             APW+lo
+:E1_0001: E( 1)=   -3.4776   E(BOTTOM)=   -3.568   E(TOP)=   -3.387  1  2   148
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3122   E(BOTTOM)=   -0.042   E(TOP)=    0.666  0  1   132
+             APW+lo
+:E0_0001: E( 0)=    0.1809
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.1809
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.1809
+             APW+lo
+:E2_0002: E( 2)=   -3.1762   E(BOTTOM)=   -3.220   E(TOP)=   -3.132  0  1   136
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.5809
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.636   E(TOP)= -200.000  3 -1   181
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.1809
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4663536   -3.4661323   -3.4575557   -3.4573347   -3.4510280
+:EIG00006:      -3.4490907   -3.1666470   -3.1665284   -3.1661748   -3.1661306
+:EIG00011:      -3.1652080   -3.1651946   -3.1651435   -3.1651408   -3.1643546
+:EIG00016:      -3.1643302   -0.6707196   -0.5868515   -0.0312640    0.1110062
+:EIG00021:       0.1215365    0.1257212    0.1634668    0.1679074    0.2160664
+:EIG00026:       0.3376984    0.3467116    0.3792870    0.3992300    0.4004547
+:EIG00031:       0.4345038    0.4504790    0.5301049    0.5402611    0.6005709
+:EIG00036:       0.7598906    0.8147395    0.8924005    0.9034801    0.9243643
+:EIG00041:       1.2365478    1.2853249    1.3160769    1.3409780    1.3489222
+:EIG00046:       1.3827277    1.4107850    1.4517892    1.4557590    1.4900371
+ 
+:EIG00051:       1.5781446    1.5860026    1.6998947    1.7345121    1.8429006
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.081943    0.151537  2.00000000
+:BAN00023:  23    0.131898    0.191384  2.00000000
+:BAN00024:  24    0.145277    0.195247  2.00000000
+:BAN00025:  25    0.216029    0.301183  2.00000000
+:BAN00026:  26    0.259658    0.339927  2.00000000
+:BAN00027:  27    0.275231    0.352337  2.00000000
+:BAN00028:  28    0.278065    0.386221  2.00000000
+:BAN00029:  29    0.338488    0.400280  1.85487723
+:BAN00030:  30    0.338488    0.408422  1.82882462
+:BAN00031:  31    0.374328    0.472526  0.17980441
+:BAN00032:  32    0.375735    0.472526  0.13649373
+:BAN00033:  33    0.456377    0.530105  0.00000000
+:BAN00034:  34    0.456377    0.540261  0.00000000
+:BAN00035:  35    0.600571    0.860678  0.00000000
+:BAN00036:  36    0.705841    0.865627  0.00000000
+:BAN00037:  37    0.774776    0.971103  0.00000000
+        Energy to separate low and high energystates:   -0.08126
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3904599593
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5293    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2479 6.2252 6.0375 0.0153 2.0627 4.1625 0.0000 1.3546 1.2484 1.1527 2.2818 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0343 -0.6322    6.0002 -3.4430    0.0325 -0.6212    0.0026 -0.7342
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2137  0.0437    0.2250  0.1600    6.0050  0.2839    0.0127  0.1679
+:VZZ001: EFG INSIDE SPHERE   1 =     0.562397      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3931    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3602 1.990110.0312 0.0097 0.6822 1.3079 0.0000 2.0065 2.0061 2.0063 4.0124 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2833 -0.6061    0.0088 -0.7299    9.9774 -3.1655    0.0002 -2.7231
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.0768  0.1202    1.9813  0.1136    0.0538  0.2386    0.0095  0.3027
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.548347      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -102.246336416
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.219863866 Ry
+:2S 001: 2S                 -59.152070074 Ry
+:2PP001: 2P*                -50.954327379 Ry
+:2P 001: 2P                 -50.039105394 Ry
+:3S 001: 3S                  -5.920643162 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM   1058.692821311924      0.000000000000      0.000000000000  -1058.692821311924
+
+:1S 002: 1S                -916.478603833 Ry
+:2S 002: 2S                -117.137515503 Ry
+:2PP002: 2P*               -105.112865461 Ry
+:2P 002: 2P                -102.049602656 Ry
+:3S 002: 3S                 -14.867754288 Ry
+:3PP002: 3P*                -10.754862936 Ry
+:3P 002: 3P                 -10.322366069 Ry
+:CINT001 Core Integral Atom   1   11.997192
+:CINT002 Core Integral Atom   2   17.999413
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.457944        0.000000    14798.220645    14803.678589
+:RTO002:   2       56.134079        0.000000    38924.784011    38980.918090
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.155187
+:NPC   : PW Pseudocharge     =    13.600463
+:NTO001: CHARGE SPHERE  1    =    24.526524
+:NTO002: CHARGE SPHERE  2    =    31.392481
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99320
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     8.130754
+:OPC   : PW Pseudocharge     =    13.673613
+:OTO001: CHARGE SPHERE  1    =    24.546856
+:OTO002: CHARGE SPHERE  2    =    31.387767
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.0222376
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0064472
+
+:DIS  :  CHARGE DISTANCE       ( 0.0222376 for atom    1 spin 1)      0.0143424
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.6720 DISTAN   3.09E-02  8.42E-01 %
+:CHARG:  CLM/ATOM    303.3372 DISTAN   2.43E-02  8.02E-03 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02  9.52E-01  1.00E+00 -1.00E+01  2.52E-02  3.16E-02  2.73E-02  1.00E+00
+  4   5.8510E-02   5.8510E-02  8.73E-01  1.00E+00  2.11E-01  1.37E+00  5.85E-02  4.81E-02  9.92E-01
+  5   1.4628E-01   1.4380E-01  4.81E-01  5.52E-01  3.55E-01  1.18E+00  3.55E-01  2.55E-01  1.00E+00
+  6   2.0274E-01   1.8362E-01  1.03E+00  7.91E-01  4.74E-01  1.76E+00  4.74E-01  1.64E-01  1.00E+00
+  7   2.0045E-01   2.0045E-01 -1.00E+00  2.52E-01  8.85E-01  1.00E+00  3.62E-01  1.28E-01  1.00E+00
+:JACOBIANS    1.271E+00   7.504E-01
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.7444E+00  0.4489E+00  0.9994E+00  0.7829E+00
+:INFO :  Number of Memory Steps    6 Skipping    0
+:INFO :  SLambda=    1.2099357153  Max    1.2099357153
+:PREDicted Charge, CTotal, PW Trust    8.896E-03   1.054E-02   1.118E-01
+:PREDicted DMix, Beta, BLim   2.6431E-01  1.1669E+00  3.6570E+00
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   2.757480E+00   0.000000E+00   2.451928E+00   4.000000E+00   7.225308E+00   0.000000E+00
+   2   7.924056E-01   0.000000E+00   7.792681E-01   1.095873E+00   1.854728E+00   0.000000E+00
+   3   2.961430E-01   0.000000E+00   8.996917E-02   7.599245E-01   1.413395E+00   0.000000E+00
+   4   2.500982E-02   0.000000E+00   3.259139E-03   1.441832E-01   1.902569E-01   0.000000E+00
+   5  -1.754152E-17   0.000000E+00   2.049799E-06   1.909522E-05   6.312680E-08   0.000000E+00
+   6   6.169074E-06   0.000000E+00  -1.317335E-16   6.329935E-08   2.658673E-05   0.000000E+00
+ 
+:INFO :  Singular value  7.229E+00 Weight  1.000E+00 Projection  2.006E-02
+:INFO :  Singular value  1.855E+00 Weight  1.000E+00 Projection  9.267E-03
+:INFO :  Singular value  1.415E+00 Weight  1.000E+00 Projection  6.575E-03
+:INFO :  Singular value  1.899E-01 Weight  1.000E+00 Projection -6.715E-02
+:INFO :  Singular value  2.659E-05 Weight  4.398E-03 Projection -3.200E-02
+:INFO :  Singular value  6.313E-08 Weight  2.491E-08 Projection -2.434E-07
+:RANK :  ACTIVE   4.00/6  =  66.74 % ; YY RANK   4.00/6  =  66.70 %
+ 
+:BLIM :  VZERO Control Off
+:TRUST:  Step 2.14E+00  Charge 6.82E-02 (e) CTO  1.82E-01 (e) PW  2.80E-01 (e)
+:DIRM :  MEMORY  6/8  SCALE   1.000 RED  0.16 PRED  0.25 NEXT  0.62 
+:TRAVE:  Charge 9.97E-03 (e) CTO  1.85E-02 (e) PW  4.13E-02 (e)
+:DIRP :  |MSR1|= 2.104E-02 |PRATT|= 3.091E-02 ANGLE=  13.3 DEGREES
+:DIRQ :  |MSR1|= 2.600E-02 |PRATT|= 4.866E-02 ANGLE=  45.2 DEGREES
+:DIRT :  |MSR1|= 3.345E-02 |PRATT|= 5.765E-02 ANGLE=  37.8 DEGREES
+:MIX  :   MSE1   REGULARIZATION:  4.00E-04 GREED: 0.21954  Newton 1.00  0.5802                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     8.140164
+:CPC   : PW Pseudocharge     =    13.628459
+:CTO001: CHARGE SPHERE  1    =    24.542679
+:CTO002: CHARGE SPHERE  2    =    31.387238
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.10511679E-02 -6.741E-05 -5.765E-05
+:PTO002:      0    0   -1  1.63973773E-02 -1.163E-04 -2.417E-04
+:PTO004:     -1    0   -1 -9.04130975E-02 -3.281E-05 -1.224E-04
+:PTO005:      0    0   -2 -1.02108386E-02 -5.290E-05 -1.191E-04
+:PTO006:     -1   -1    0 -2.09785561E-02 -1.023E-04 -2.049E-04
+:PTO007:     -1   -1   -1  2.55872016E-02 -1.128E-04 -2.229E-04
+:PTO008:     -1    0   -2  9.97829939E-03  3.745E-05  9.225E-05
+:PTO009:     -1   -1   -2  2.69191490E-02 -2.323E-04 -2.914E-04
+:PTO010:     -2    0    0 -1.29454918E-02  8.844E-05  1.317E-04
+:PTO011:      0    0   -3  2.32153139E-03 -2.170E-05 -1.581E-05
+:PTO012:     -2    0   -1  3.39574849E-03  2.229E-04  2.787E-04
+:PTO014:     -1    0   -3  8.37186166E-03 -1.232E-04 -1.016E-04
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.72181391
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM         93.711          0.000          0.000         93.711 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000         93.711 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000    93.710544663 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE008:  8. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.333E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.26905E+00
+:EFG001:                        EFG         =    -0.15082   *10**21  V / m**2
+                               V20  TOT/SRF=    -0.13061    -0.01745
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              0.07541    0.00000    0.00000        0.07541    0.00000    0.00000
+              0.00000    0.07541    0.00000        0.00000    0.07541    0.00000
+              0.00000    0.00000   -0.15082        0.00000    0.00000   -0.15082
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.62183E-01
+:EFG002:                        EFG         =    -5.54878   *10**21  V / m**2
+                               V20  TOT/SRF=    -4.80538     0.00060
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              2.77439    0.00000    0.00000        2.77439    0.00000    0.00000
+              0.00000    2.77439    0.00000        0.00000    2.77439    0.00000
+              0.00000    0.00000   -5.54878        0.00000    0.00000   -5.54878
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1290.576988693824      0.000000000000      0.000000000000   1290.576988693824
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1597550E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1597550E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.3393618E-03
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.3393618E-03
+:DEN  : DENSITY INTEGRAL  =         -6218.64103669   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.70812   0.62726
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.52148  -0.70812  -0.81336 v5,v5c,v5x   0.10602   0.62726  -0.52123
+:VZERY:v0,v0c,v0x  -0.71489   0.00000  -0.71489 v5,v5c,v5x  -0.71489   0.00000  -0.71489
+:VZERX:v0,v0c,v0x   0.10174   0.78800  -0.68627 v5,v5c,v5x   0.10174   0.78800  -0.68627
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.1873
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.1873
+             APW+lo
+:E1_0001: E( 1)=   -3.4809   E(BOTTOM)=   -3.571   E(TOP)=   -3.390  1  2   148
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3092   E(BOTTOM)=   -0.045   E(TOP)=    0.663  0  1   136
+             APW+lo
+:E0_0001: E( 0)=    0.1873
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.1873
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.1873
+             APW+lo
+:E2_0002: E( 2)=   -3.1763   E(BOTTOM)=   -3.220   E(TOP)=   -3.133  0  1   145
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.5873
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.636   E(TOP)= -200.000  3 -1   182
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.1873
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4696108   -3.4693898   -3.4608246   -3.4606039   -3.4544566
+:EIG00006:      -3.4525219   -3.1667904   -3.1666736   -3.1663308   -3.1662864
+:EIG00011:      -3.1652933   -3.1652797   -3.1652281   -3.1652251   -3.1644300
+:EIG00016:      -3.1644057   -0.6708949   -0.5869766   -0.0317353    0.1096765
+:EIG00021:       0.1201781    0.1243707    0.1629049    0.1673613    0.2134397
+:EIG00026:       0.3355167    0.3442567    0.3773285    0.3964502    0.3975504
+:EIG00031:       0.4332315    0.4474559    0.5285740    0.5386678    0.5997658
+:EIG00036:       0.7584166    0.8137949    0.8917696    0.9028113    0.9237896
+:EIG00041:       1.2363476    1.2845888    1.3155535    1.3404295    1.3485774
+:EIG00046:       1.3818961    1.4101804    1.4512684    1.4550995    1.4896698
+ 
+:EIG00051:       1.5777939    1.5857527    1.6992456    1.7337278    1.8424051
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.081732    0.151241  2.00000000
+:BAN00023:  23    0.130767    0.190644  2.00000000
+:BAN00024:  24    0.145171    0.194476  2.00000000
+:BAN00025:  25    0.213401    0.298472  2.00000000
+:BAN00026:  26    0.257253    0.337989  2.00000000
+:BAN00027:  27    0.272888    0.349808  2.00000000
+:BAN00028:  28    0.275620    0.384614  2.00000000
+:BAN00029:  29    0.335772    0.397379  1.85688533
+:BAN00030:  30    0.335772    0.405682  1.83050033
+:BAN00031:  31    0.371282    0.470787  0.17741510
+:BAN00032:  32    0.372676    0.470787  0.13519924
+:BAN00033:  33    0.453706    0.528574  0.00000000
+:BAN00034:  34    0.453706    0.538668  0.00000000
+:BAN00035:  35    0.599766    0.859373  0.00000000
+:BAN00036:  36    0.704538    0.864472  0.00000000
+:BAN00037:  37    0.773938    0.970666  0.00000000
+        Energy to separate low and high energystates:   -0.08174
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3877181832
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5459    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2482 6.2249 6.0541 0.0153 2.0625 4.1625 0.0000 1.3570 1.2494 1.1544 2.2933 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0344 -0.6324    6.0003 -3.4462    0.0327 -0.6212    0.0027 -0.7343
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2138  0.0431    0.2246  0.1588    6.0214  0.2813    0.0126  0.1667
+:VZZ001: EFG INSIDE SPHERE   1 =     0.403723      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3848    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3602 1.982110.0310 0.0097 0.6790 1.3030 0.0000 2.0064 2.0060 2.0062 4.0124 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2826 -0.6063    0.0090 -0.7272    9.9774 -3.1656    0.0002 -2.7317
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.0775  0.1198    1.9730  0.1129    0.0536  0.2357    0.0095  0.3001
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.398830      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =        -102.328344050
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.222240473 Ry
+:2S 001: 2S                 -59.155315557 Ry
+:2PP001: 2P*                -50.957433308 Ry
+:2P 001: 2P                 -50.042221775 Ry
+:3S 001: 3S                  -5.924054929 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM   1158.466872345371      0.000000000000      0.000000000000  -1158.466872345371
+
+:1S 002: 1S                -916.478273369 Ry
+:2S 002: 2S                -117.137230976 Ry
+:2PP002: 2P*               -105.112564126 Ry
+:2P 002: 2P                -102.049303355 Ry
+:3S 002: 3S                 -14.867904028 Ry
+:3PP002: 3P*                -10.755004151 Ry
+:3P 002: 3P                 -10.322515797 Ry
+:CINT001 Core Integral Atom   1   11.997195
+:CINT002 Core Integral Atom   2   17.999413
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.463671        0.000000    14798.221080    14803.684751
+:RTO002:   2       56.137869        0.000000    38924.774049    38980.911918
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.138578
+:NPC   : PW Pseudocharge     =    13.584572
+:NTO001: CHARGE SPHERE  1    =    24.543094
+:NTO002: CHARGE SPHERE  2    =    31.384219
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99320
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     8.140164
+:OPC   : PW Pseudocharge     =    13.628459
+:OTO001: CHARGE SPHERE  1    =    24.542679
+:OTO002: CHARGE SPHERE  2    =    31.387238
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.0071508
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0034463
+
+:DIS  :  CHARGE DISTANCE       ( 0.0071508 for atom    1 spin 1)      0.0052985
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.6664 DISTAN   1.07E-02  2.92E-01 %
+:CHARG:  CLM/ATOM    303.3367 DISTAN   9.03E-03  2.98E-03 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02  9.52E-01  1.00E+00 -1.00E+01  2.52E-02  3.16E-02  2.73E-02  1.00E+00
+  4   5.8510E-02   5.8510E-02  8.73E-01  1.00E+00  2.11E-01  1.37E+00  5.85E-02  4.81E-02  9.92E-01
+  5   1.4628E-01   1.4380E-01  4.81E-01  5.52E-01  3.55E-01  1.18E+00  3.55E-01  2.55E-01  1.00E+00
+  6   2.0274E-01   1.8362E-01  1.03E+00  7.91E-01  4.74E-01  1.76E+00  4.74E-01  1.64E-01  1.00E+00
+  7   2.0045E-01   2.0045E-01  1.63E-01  2.52E-01  8.85E-01  1.21E+00  3.62E-01  1.28E-01  1.00E+00
+  8   2.1954E-01   2.1954E-01 -1.00E+00  6.17E-01  2.14E+00  1.00E+00  5.80E-01  3.34E-02  1.00E+00
+:JACOBIANS    1.355E+00   1.067E+00
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.7361E+00  0.4737E+00  0.9995E+00  0.7847E+00
+:INFO :  Number of Memory Steps    7 Skipping    0
+:INFO :  SLambda=    1.4882800180  Max    1.4882800180
+:PREDicted Charge, CTotal, PW Trust    4.388E-03   1.273E-02   2.768E-02
+:PREDicted DMix, Beta, BLim   4.3496E-01  1.0528E+00  1.7317E+00
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   3.222950E+00   0.000000E+00   2.889095E+00   4.691848E+00   9.339390E+00   0.000000E+00
+   2   7.992277E-01   0.000000E+00   7.718381E-01   1.115862E+00   2.112696E+00   0.000000E+00
+   3   3.118347E-01   0.000000E+00   1.144645E-01   8.049519E-01   1.545774E+00   0.000000E+00
+   4   7.660445E-02   0.000000E+00   1.547388E-02   3.633612E-01   5.412145E-01   0.000000E+00
+   5   9.014014E-03   0.000000E+00   2.367584E-03   2.397559E-02   3.857247E-02   0.000000E+00
+   6  -3.206889E-17   0.000000E+00   1.727950E-07   1.027686E-06   5.770712E-08   0.000000E+00
+   7   4.043521E-07   0.000000E+00  -2.858040E-16   5.794662E-08   1.729097E-06   0.000000E+00
+ 
+:INFO :  Singular value  9.354E+00 Weight  1.000E+00 Projection -8.245E-05
+:INFO :  Singular value  2.113E+00 Weight  1.000E+00 Projection  2.329E-03
+:INFO :  Singular value  1.552E+00 Weight  1.000E+00 Projection -2.665E-03
+:INFO :  Singular value  5.382E-01 Weight  1.000E+00 Projection -1.022E-02
+:INFO :  Singular value  3.856E-02 Weight  9.999E-01 Projection -1.178E-01
+:INFO :  Singular value  1.729E-06 Weight  1.359E-05 Projection -1.361E-04
+:INFO :  Singular value  5.770E-08 Weight  1.512E-08 Projection -9.870E-08
+:RANK :  ACTIVE   5.00/7  =  71.43 % ; YY RANK   5.00/7  =  71.42 %
+ 
+:BLIM :  VZERO Control Off
+:TRUST:  Step 2.86E+00  Charge 5.45E-02 (e) CTO  1.45E-01 (e) PW  2.24E-01 (e)
+:DIRM :  MEMORY  7/8  SCALE   1.000 RED  0.36 PRED  0.62 NEXT  0.55 
+:TRAVE:  Charge 5.58E-03 (e) CTO  1.10E-02 (e) PW  2.43E-02 (e)
+:DIRP :  |MSR1|= 5.576E-03 |PRATT|= 1.069E-02 ANGLE=   5.4 DEGREES
+:DIRQ :  |MSR1|= 8.418E-03 |PRATT|= 1.805E-02 ANGLE=  11.5 DEGREES
+:DIRT :  |MSR1|= 1.010E-02 |PRATT|= 2.098E-02 ANGLE=  10.5 DEGREES
+:MIX  :   MSE1   REGULARIZATION:  4.69E-04 GREED: 0.31606  Newton 1.00  0.4813                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     8.143597
+:CPC   : PW Pseudocharge     =    13.612833
+:CTO001: CHARGE SPHERE  1    =    24.542159
+:CTO002: CHARGE SPHERE  2    =    31.386042
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.10281749E-02 -2.299E-05 -5.154E-05
+:PTO002:      0    0   -1  1.63548314E-02 -4.255E-05 -8.295E-05
+:PTO004:     -1    0   -1 -9.03830667E-02  3.003E-05  8.058E-05
+:PTO005:      0    0   -2 -1.02296413E-02 -1.880E-05 -3.142E-05
+:PTO006:     -1   -1    0 -2.09918649E-02 -1.331E-05 -1.890E-05
+:PTO007:     -1   -1   -1  2.55207879E-02 -6.641E-05 -1.348E-04
+:PTO008:     -1    0   -2  9.97033611E-03 -7.963E-06 -1.834E-05
+:PTO009:     -1   -1   -2  2.68935971E-02 -2.555E-05 -6.184E-05
+:PTO010:     -2    0    0 -1.29213654E-02  2.413E-05  5.412E-05
+:PTO011:      0    0   -3  2.32013969E-03 -1.392E-06 -2.826E-06
+:PTO012:     -2    0   -1  3.40446988E-03  8.721E-06  2.120E-05
+:PTO014:     -1    0   -3  8.39373582E-03  2.187E-05  3.618E-05
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.72179182
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM        132.110          0.000          0.000        132.110 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        132.110 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   132.110116348 partial forces
+ Flat Integration
+ New Mode for Coulomb Integral
+ Consistent 3/8+Simpson combinations
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+
+
+            ---------
+:ITE009:  9. ITERATION
+            ---------
+
+:NATO :    2 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: FeSe                                                        
+
+       LATTICE                      = P   
+:POT  : POTENTIAL OPTION EX_LDA EC_LDA VX_LDA VC_LDA
+:LAT  : LATTICE CONSTANTS=  7.12881  7.12881 10.43450    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     530.28024
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   60   60   80 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =25.91023
+
+
+:VKCOUL :  VK-COUL convergence: 0.333E-06
+       ATOMNUMBER=  1 Fe         VCOUL-ZERO =  0.26853E+00
+:EFG001:                        EFG         =     0.09026   *10**21  V / m**2
+                               V20  TOT/SRF=     0.07817    -0.01766
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+             -0.04513    0.00000    0.00000       -0.04513    0.00000    0.00000
+              0.00000   -0.04513    0.00000        0.00000   -0.04513    0.00000
+              0.00000    0.00000    0.09026        0.00000    0.00000    0.09026
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 Se         VCOUL-ZERO =  0.61883E-01
+:EFG002:                        EFG         =    -5.46295   *10**21  V / m**2
+                               V20  TOT/SRF=    -4.73105     0.00158
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              2.73148    0.00000    0.00000        2.73148    0.00000    0.00000
+              0.00000    2.73148    0.00000        0.00000    2.73148    0.00000
+              0.00000    0.00000   -5.46295        0.00000    0.00000   -5.46295
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000000      0.000000000000      0.000000000000      0.000000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM   1273.672475402246      0.000000000000      0.000000000000   1273.672475402246
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1603580E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1603580E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.3401955E-03
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.3401955E-03
+:DEN  : DENSITY INTEGRAL  =         -6218.53860062   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:  -0.70748   0.62755
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -1.52076  -0.70748  -0.81328 v5,v5c,v5x   0.10608   0.62755  -0.52148
+:VZERY:v0,v0c,v0x  -0.71486   0.00000  -0.71486 v5,v5c,v5x  -0.71486   0.00000  -0.71486
+:VZERX:v0,v0c,v0x   0.10139   0.78778  -0.68640 v5,v5c,v5x   0.10139   0.78778  -0.68640
+:LMAX-WF:   10   Non-Spherical LMAX:   4
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Fe        
+:e__0001: OVERALL ENERGY PARAMETER IS    0.1876
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.1876
+             APW+lo
+:E1_0001: E( 1)=   -3.4814   E(BOTTOM)=   -3.572   E(TOP)=   -3.391  1  2   142
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3087   E(BOTTOM)=   -0.045   E(TOP)=    0.663  0  1   132
+             APW+lo
+:E0_0001: E( 0)=    0.1876
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Se        
+:e__0002: OVERALL ENERGY PARAMETER IS    0.1876
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=    0.1876
+             APW+lo
+:E2_0002: E( 2)=   -3.1770   E(BOTTOM)=   -3.221   E(TOP)=   -3.133  0  1   139
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.5876
+             APW+lo
+:E0_0002: E( 0)=   -1.0200   E(BOTTOM)=   -1.636   E(TOP)= -200.000  3 -1   183
+             LOCAL ORBITAL
+:E1_0002: E( 1)=    0.1876
+             APW+lo
+
+       K=   0.04545   0.04545   0.07143            1
+:RKM  : MATRIX SIZE   582LOs:  54  RKM= 7.97  WEIGHT= 8.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -3.4698760   -3.4696550   -3.4610887   -3.4608680   -3.4553395
+:EIG00006:      -3.4534056   -3.1675050   -3.1673884   -3.1670478   -3.1670034
+:EIG00011:      -3.1660772   -3.1660637   -3.1660122   -3.1660092   -3.1652382
+:EIG00016:      -3.1652139   -0.6713286   -0.5874395   -0.0321745    0.1092880
+:EIG00021:       0.1197356    0.1239203    0.1625210    0.1669773    0.2131853
+:EIG00026:       0.3349127    0.3436617    0.3768641    0.3959334    0.3973356
+:EIG00031:       0.4328205    0.4472659    0.5281411    0.5382190    0.5994268
+:EIG00036:       0.7581618    0.8134743    0.8914542    0.9024778    0.9235094
+:EIG00041:       1.2360147    1.2842843    1.3153190    1.3402572    1.3483355
+:EIG00046:       1.3815951    1.4099115    1.4510665    1.4548179    1.4894079
+ 
+:EIG00051:       1.5775031    1.5854537    1.6990740    1.7333951    1.8420703
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    84
+:GAP (global)   :    0.0    Ry =     0.0   eV (metal)
+         Bandranges (emin - emax) and occupancy:
+:BAN00022:  22    0.081441    0.150798  2.00000000
+:BAN00023:  23    0.130334    0.190226  2.00000000
+:BAN00024:  24    0.144733    0.194057  2.00000000
+:BAN00025:  25    0.213147    0.298134  2.00000000
+:BAN00026:  26    0.256813    0.337415  2.00000000
+:BAN00027:  27    0.272444    0.349196  2.00000000
+:BAN00028:  28    0.275125    0.384252  2.00000000
+:BAN00029:  29    0.335264    0.397165  1.85649776
+:BAN00030:  30    0.335264    0.405176  1.83006092
+:BAN00031:  31    0.370721    0.470389  0.17777632
+:BAN00032:  32    0.372114    0.470389  0.13567734
+:BAN00033:  33    0.453252    0.528141  0.00000000
+:BAN00034:  34    0.453252    0.538219  0.00000000
+:BAN00035:  35    0.599427    0.858977  0.00000000
+:BAN00036:  36    0.704224    0.864131  0.00000000
+:BAN00037:  37    0.773722    0.970430  0.00000000
+        Energy to separate low and high energystates:   -0.08217
+
+
+:NOE  : NUMBER OF ELECTRONS          =   60.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3873458360
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.25000 0.75000 0.00000  MULT= 2  ZZ= 26.000  Fe        
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  12.5467    (RMT=  2.1600 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.2483 6.2250 6.0548 0.0153 2.0625 4.1625 0.0000 1.3584 1.2469 1.1530 2.2964 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0344 -0.6328    6.0003 -3.4467    0.0327 -0.6217    0.0027 -0.7347
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2139  0.0427    0.2246  0.1584    6.0221  0.2808    0.0126  0.1662
+:VZZ001: EFG INSIDE SPHERE   1 =     0.164311      UP TO R =   2.16000
+
+:POS002: ATOM   -2 X,Y,Z = 0.25000 0.25000 0.27000  MULT= 2  ZZ= 34.000  Se        
+
+       LMMAX 10
+       LM=   0 0  1 0  2 0  3 0  4 0  4 4  5 0  5 4  6 0  6 4
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  13.3849    (RMT=  2.0500 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL002: 1.3603 1.982010.0310 0.0097 0.6791 1.3030 0.0000 2.0064 2.0060 2.0062 4.0124 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  1.2827 -0.6067    0.0090 -0.7275    9.9774 -3.1664    0.0002 -2.7316
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.0776  0.1193    1.9730  0.1125    0.0536  0.2351    0.0095  0.2996
+:VZZ002: EFG INSIDE SPHERE   2 =    -5.417249      UP TO R =   2.05000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000012
+
+:SUM  : SUM OF EIGENVALUES =        -102.361043546
+
+
+        1.ATOM      Fe                    5 CORE STATES
+:1S 001: 1S                -512.224728697 Ry
+:2S 001: 2S                 -59.156576778 Ry
+:2PP001: 2P*                -50.958851905 Ry
+:2P 001: 2P                 -50.043626328 Ry
+:3S 001: 3S                  -5.924520068 Ry
+
+        2.ATOM      Se                    7 CORE STATES
+       CORE-FORCE in mRy/a.u. = |F|      Fx             Fy             Fz
+:FCO002:   2.ATOM   1148.839884413890      0.000000000000      0.000000000000  -1148.839884413890
+
+:1S 002: 1S                -916.479656117 Ry
+:2S 002: 2S                -117.138331637 Ry
+:2PP002: 2P*               -105.113713494 Ry
+:2P 002: 2P                -102.050446056 Ry
+:3S 002: 3S                 -14.868671838 Ry
+:3PP002: 3P*                -10.755774804 Ry
+:3P 002: 3P                 -10.323283532 Ry
+:CINT001 Core Integral Atom   1   11.997195
+:CINT002 Core Integral Atom   2   17.999413
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        5.464392        0.000000    14798.246362    14803.710754
+:RTO002:   2       56.148250        0.000000    38924.785684    38980.933933
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     8.136795
+:NPC   : PW Pseudocharge     =    13.585304
+:NTO001: CHARGE SPHERE  1    =    24.543861
+:NTO002: CHARGE SPHERE  2    =    31.384350
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    120.00000   119.99322
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     8.143597
+:OPC   : PW Pseudocharge     =    13.612833
+:OTO001: CHARGE SPHERE  1    =    24.542159
+:OTO002: CHARGE SPHERE  2    =    31.386042
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.0039905
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0015552
+
+:DIS  :  CHARGE DISTANCE       ( 0.0039905 for atom    1 spin 1)      0.0027729
+ PW Mixed is          365
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PWTMP   3.7368E+02  3.2249E+02  5.3028E+02
+:PLANE:  PW TOTAL      3.6640 DISTAN   5.05E-03  1.38E-01 %
+:CHARG:  CLM/ATOM    303.3352 DISTAN   3.36E-03  1.11E-03 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+  2   2.5000E-02   2.5000E-02  4.91E-01  1.00E+00 -1.00E+01  1.00E+00  2.50E-02  4.40E-02  1.00E+00
+  3   3.1633E-02   3.1633E-02  9.52E-01  1.00E+00 -1.00E+01  2.52E-02  3.16E-02  2.73E-02  1.00E+00
+  4   5.8510E-02   5.8510E-02  8.73E-01  1.00E+00  2.11E-01  1.37E+00  5.85E-02  4.81E-02  9.92E-01
+  5   1.4628E-01   1.4380E-01  4.81E-01  5.52E-01  3.55E-01  1.18E+00  3.55E-01  2.55E-01  1.00E+00
+  6   2.0274E-01   1.8362E-01  1.03E+00  7.91E-01  4.74E-01  1.76E+00  4.74E-01  1.64E-01  1.00E+00
+  7   2.0045E-01   2.0045E-01  1.63E-01  2.52E-01  8.85E-01  1.21E+00  3.62E-01  1.28E-01  1.00E+00
+  8   2.1954E-01   2.1954E-01  3.64E-01  6.17E-01  2.14E+00  1.49E+00  5.80E-01  3.34E-02  1.00E+00
+  9   3.1606E-01   3.1606E-01 -1.00E+00  5.52E-01  2.86E+00  1.00E+00  4.81E-01  1.01E-02  1.00E+00
+:JACOBIANS    1.585E+00   1.434E+00
+  
+:NORMS:  1/Froebius, Min, Max, Used   0.7225E+00  0.4789E+00  0.9997E+00  0.7867E+00
+:INFO :  Number of Memory Steps    8 Skipping    0
+:INFO :  SLambda=    1.5740533168  Max    1.5740533168
+:PREDicted Charge, CTotal, PW Trust    2.312E-03   6.269E-03   1.701E-02
+:PREDicted DMix, Beta, BLim   6.4085E-01  1.4549E+00  6.0126E+00
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   3.169537E+00   0.000000E+00   2.848098E+00   4.601923E+00   9.438856E+00   0.000000E+00
+   2   8.396472E-01   0.000000E+00   7.855095E-01   1.267837E+00   2.468828E+00   0.000000E+00
+   3   6.358380E-01   0.000000E+00   4.361026E-01   1.114989E+00   2.006563E+00   0.000000E+00
+   4   3.037082E-01   0.000000E+00   9.951574E-02   7.497154E-01   1.568542E+00   0.000000E+00
+   5   5.071986E-02   0.000000E+00   6.610815E-03   2.634507E-01   3.842943E-01   0.000000E+00
+   6   1.179368E-03   0.000000E+00   5.561063E-04   2.084425E-03   4.174034E-03   0.000000E+00
+   7  -9.169652E-17   0.000000E+00   1.738900E-08   4.516855E-07   5.621930E-08   0.000000E+00
+   8   8.790426E-08   0.000000E+00  -1.125116E-16   5.658799E-08   5.897781E-07   0.000000E+00
+ 
+:INFO :  Singular value  9.457E+00 Weight  1.000E+00 Projection -3.454E-04
+:INFO :  Singular value  2.469E+00 Weight  1.000E+00 Projection  3.553E-03
+:INFO :  Singular value  2.006E+00 Weight  1.000E+00 Projection -9.460E-04
+:INFO :  Singular value  1.575E+00 Weight  1.000E+00 Projection -3.945E-03
+:INFO :  Singular value  3.821E-01 Weight  1.000E+00 Projection -6.881E-03
+:INFO :  Singular value  4.174E-03 Weight  9.880E-01 Projection  1.207E-01
+:INFO :  Singular value  5.898E-07 Weight  1.643E-06 Projection  5.681E-09
+:INFO :  Singular value  5.621E-08 Weight  1.492E-08 Projection -3.951E-08
+:RANK :  ACTIVE   5.99/8  =  74.85 % ; YY RANK   5.95/8  =  74.42 %
+ 
+:BLIM :  VZERO Control Off
+:TRUST:  Step 4.07E+00  Charge 4.36E-02 (e) CTO  1.16E-01 (e) PW  1.79E-01 (e)
+:DIRM :  MEMORY  8/8  SCALE   1.000 RED  0.40 PRED  0.55 NEXT  0.15 
+:TRAVE:  Charge 3.18E-03 (e) CTO  6.40E-03 (e) PW  1.56E-02 (e)
+:DIRP :  |MSR1|= 4.535E-03 |PRATT|= 5.055E-03 ANGLE=   9.1 DEGREES
+:DIRQ :  |MSR1|= 4.091E-03 |PRATT|= 6.721E-03 ANGLE=  33.9 DEGREES
+:DIRT :  |MSR1|= 6.107E-03 |PRATT|= 8.409E-03 ANGLE=  27.8 DEGREES
+:MIX  :   MSE1   REGULARIZATION:  4.60E-04 GREED: 0.35000  Newton 1.00  0.7262                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     8.145415
+:CPC   : PW Pseudocharge     =    13.599743
+:CTO001: CHARGE SPHERE  1    =    24.542029
+:CTO002: CHARGE SPHERE  2    =    31.385263
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    120.00000   120.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  4.10069176E-02 -2.126E-05 -3.059E-05
+:PTO002:      0    0   -1  1.63222850E-02 -3.255E-05 -3.299E-05
+:PTO004:     -1    0   -1 -9.03630005E-02  2.007E-05  4.149E-05
+:PTO005:      0    0   -2 -1.02457477E-02 -1.611E-05 -1.397E-05
+:PTO006:     -1   -1    0 -2.10081886E-02 -1.632E-05 -9.302E-06
+:PTO007:     -1   -1   -1  2.54640357E-02 -5.675E-05 -6.582E-05
+:PTO008:     -1    0   -2  9.96321186E-03 -7.124E-06 -1.447E-05
+:PTO009:     -1   -1   -2  2.68642920E-02 -2.931E-05 -3.355E-05
+:PTO010:     -2    0    0 -1.29018872E-02  1.948E-05  2.301E-05
+:PTO011:      0    0   -3  2.31557188E-03 -4.568E-06 -5.849E-06
+:PTO012:     -2    0   -1  3.41915107E-03  1.468E-05  1.215E-05
+:PTO014:     -1    0   -3  8.40457908E-03  1.084E-05  1.312E-05
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -14790.72179285
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM        124.833          0.000          0.000        124.833 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000        124.833 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000   124.832590988 partial forces
