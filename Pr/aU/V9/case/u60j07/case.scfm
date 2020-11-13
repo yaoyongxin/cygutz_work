@@ -1,0 +1,80 @@
+:CINT001 Core Integral Atom   1   45.998459
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1      646.403289        0.000000   656824.563605   657470.966894
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     6.589627
+:NPC   : PW Pseudocharge     =    17.367895
+:NTO001: CHARGE SPHERE  1    =    55.703593
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE    118.00000   117.99681
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     6.592361
+:OPC   : PW Pseudocharge     =    17.376304
+:OTO001: CHARGE SPHERE  1    =    55.703819
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE    118.00000   118.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.0004334
+
+:DIS  :  CHARGE DISTANCE       ( 0.0004334 for atom    1 spin 1)      0.0004334
+ PW Mixed is          360
+ 
+******************************************************
+* MULTISECANT MIXING VER9 RELEASE 10.4.0              *
+* Standard Mode with controls                        *
+* Fixed density scale                                *
+* Restart from converged density                     *
+* Regularization       1.000E-04                     *
+* Trust Upper Limit    5.000E+00                     *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:INFO : Forcing a restart
+:PWTMP   2.3819E+02  1.9467E+02  3.4012E+02
+:PLANE:  PW TOTAL      5.6295 DISTAN   8.71E-05  1.55E-03 %
+:CHARG:  CLM/ATOM   1381.9358 DISTAN   6.26E-04  4.53E-05 %
+ 
+Step History
+        DMIX         DMIXT        Red     Pred      Trust     Lambda    MagRel    MagAbs     Beta
+  1   3.5000E-02   3.5000E-02 -1.00E+00  1.00E+00 -1.00E+01  1.00E+00  3.50E-02  3.50E-02  1.00E+00
+:INFO :  Note, Pratt in use
+:TRUST:  Step 2.25E-01  Charge 7.50E-02 (e) CTO  2.50E-01 (e) PW  3.50E-01 (e)
+:DIRM :  MEMORY  0/ 8 SCALE   1.000
+Performing Pseudo Compensation
+Final Pseudo Compensation Rescaling     1.00000E+00
+:MIX  :   PRATT  REGULARIZATION:  1.00E-04 GREED: 0.15000                  
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     6.592429
+:CPC   : PW Pseudocharge     =    17.376251
+:CTO001: CHARGE SPHERE  1    =    55.703785
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE    118.00000   118.00000
+
+PW CHANGE     H    K    L      Current       Change    Residue
+:PTO001:      0    0    0  7.04720866E-02  4.633E-08  1.309E-06
+:PTO003:      0    2    0  1.72380223E-02 -1.375E-07 -4.829E-07
+:PTO004:     -1    1    0  8.26932362E-02 -5.192E-07 -1.145E-06
+:PTO005:      0    2   -1 -9.51356852E-02  5.672E-07  1.040E-06
+:PTO006:      0    0   -2 -4.93863131E-02  2.904E-07  5.105E-07
+:PTO007:     -1    1   -1 -1.00409970E-01  7.055E-07  1.514E-06
+:PTO008:      0    2   -2 -1.48211429E-02  1.023E-07  7.135E-08
+:PTO009:     -1    1   -2 -7.44653304E-02  6.525E-07  1.106E-06
+:PTO011:     -1    3    0 -1.13247088E-02  1.036E-07  9.406E-08
+:PTO012:     -1    3   -1 -4.80383673E-02  5.298E-07  6.655E-07
+:PTO013:      0    4    0 -8.26530898E-03  1.026E-07  1.065E-07
+:PTO014:      0    2   -3  1.90837920E-02 -1.984E-07 -1.620E-08
+
+:ENE  : ********** TOTAL ENERGY IN Ry =       -36944.22050552
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM         10.528          0.000          0.000        -10.528 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000        -10.528          0.000 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000   -10.528262897     0.000000000 partial forces
