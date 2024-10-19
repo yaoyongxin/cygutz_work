@@ -1,0 +1,272 @@
+******Program DMFT: Computes Gloc and Delta for Dynamical Mean Field Theory calculation ******
+ Running DMFT in single processor mode
+  
+ numkpt=          47
+   0.00000   0.00000   0.00000   1.00000
+   0.10000   0.10000   0.00000  12.00000
+   0.20000   0.20000   0.00000  12.00000
+   0.30000   0.30000   0.00000  12.00000
+   0.40000   0.40000   0.00000  12.00000
+   0.50000   0.50000   0.00000   6.00000
+   0.20000   0.10000   0.10000  24.00000
+   0.30000   0.20000   0.10000  48.00000
+   0.40000   0.30000   0.10000  48.00000
+   0.50000   0.40000   0.10000  48.00000
+   0.40000   0.20000   0.20000  24.00000
+   0.50000   0.30000   0.20000  48.00000
+   0.60000   0.40000   0.20000  24.00000
+   0.60000   0.30000   0.30000  24.00000
+   0.20000   0.20000   0.20000   8.00000
+   0.30000   0.30000   0.20000  24.00000
+   0.40000   0.40000   0.20000  24.00000
+   0.50000   0.50000   0.20000  12.00000
+   1.00000   1.00000   0.20000   6.00000
+   0.40000   0.30000   0.30000  24.00000
+   0.50000   0.40000   0.30000  48.00000
+   1.00000   0.90000   0.30000  24.00000
+   0.60000   0.40000   0.40000   8.00000
+   1.00000   0.80000   0.40000  24.00000
+   1.10000   0.90000   0.40000  24.00000
+   1.00000   0.70000   0.50000  24.00000
+   1.10000   0.80000   0.50000  48.00000
+   1.00000   0.60000   0.60000  12.00000
+   1.10000   0.70000   0.60000  48.00000
+   1.20000   0.80000   0.60000  24.00000
+   1.20000   0.70000   0.70000  24.00000
+   0.40000   0.40000   0.40000   8.00000
+   0.50000   0.50000   0.40000  12.00000
+   1.00000   1.00000   0.40000   6.00000
+   1.00000   0.90000   0.50000  24.00000
+   1.00000   0.80000   0.60000  24.00000
+   1.10000   0.90000   0.60000  24.00000
+   1.00000   0.70000   0.70000  12.00000
+   1.10000   0.80000   0.70000  48.00000
+   1.20000   0.80000   0.80000   8.00000
+   1.00000   1.00000   0.60000   6.00000
+   1.00000   0.90000   0.70000  24.00000
+   1.00000   0.80000   0.80000  12.00000
+   1.10000   0.90000   0.80000  24.00000
+   1.00000   1.00000   0.80000   6.00000
+   1.00000   0.90000   0.90000  12.00000
+   1.00000   1.00000   1.00000   1.00000
+
+
+
+
+                              --------------------------------------------------
+                                 S T R U C T U R A L   I N F O R M A T I O N
+                              --------------------------------------------------
+
+
+   SUBSTANCE                    = Fe_BCC                                                                          
+
+   LATTICE                      = B   
+   LATTICE CONSTANTS ARE        =    5.4169020   5.4169020   5.4169020
+   NUMBER OF ATOMS IN UNITCELL  =   1
+   MODE OF CALCULATION IS       = RELA
+ IORD=          48
+  BR1,  BR2
+   1.15992   0.00000   0.00000      0.00000   1.15992   1.15992
+   0.00000   1.15992   0.00000      1.15992   0.00000   1.15992
+   0.00000   0.00000   1.15992      1.15992   1.15992   0.00000
+ Energy window:   -0.7350 < E <      0.735
+ Projected density of states calculation for  1 atoms
+--------- atom  1 -------------
+l=  2  qsplit=  3
+ Symmetrization over eq. k-points is performed
+ ********** Start Reading Cix file *************
+  Correlated block number           1
+  Real part of unitary matrix:
+  1.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000 -0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  1.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  1.0000
+  Imaginary part of unitary matrix:
+  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000 -1.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000
+  0.0000  0.0000  0.0000  1.0000  0.0000
+  0.0000  0.0000  0.0000  0.0000  0.0000
+ Inside ROTDEF
+Operation  1 transforms atom   1 from first atom   1
+Actual position of atom  1 is:  0.000000    0.000000    0.000000
+
+Combined transformation (acting on k-point) for correlated atoms
+including users rotation and internal local rotation
+catom  1 atom   1
+   1.15992   0.00000   0.00000
+   0.00000  -1.15992   0.00000
+   0.00000   0.00000  -1.15992
+
+
+ bz-integration with tetra-program.   icor=: 1
+ equal occupancy of degenerate states, tol=: 0.1E-05
+ call eord...
+ call dos...
+ ILOOP            1
+ ILOOP            2
+   FERMI ENERGY AT   0.56865723479459784     
+ RESULT OF INTEGRATION:       6.999999999554; SHOULD BE:       6.999999999950
+   SUM RULE OF TETRAHEDRON INTEGRATION CHECKED 
+ call eweigh...
+k-pnt spin band  energy          old/new occ.    
+    1    1    8  0.564832   0.001000/ 0.000986
+    1    1    8  0.564832   0.000973/ 0.000986
+   15    1    7  0.561306   0.008000/ 0.007785
+   15    1    7  0.561306   0.007570/ 0.007785
+   23    1    7  0.581741  -0.000473/-0.000237
+   23    1    7  0.581741   0.000000/-0.000237
+   32    1    7  0.580773  -0.000648/-0.000324
+   32    1    7  0.580773   0.000000/-0.000324
+   40    1    7  0.599683  -0.000415/-0.000207
+   40    1    7  0.599683   0.000000/-0.000207
+   41    1    6  0.513558   0.006011/ 0.006045
+   41    1    6  0.513558   0.006078/ 0.006045
+   45    1    6  0.589007   0.003003/ 0.001945
+   45    1    6  0.589007   0.000888/ 0.001945
+   47    1    6  0.637728  -0.000044/-0.000015
+   47    1    6  0.637728   0.000000/-0.000015
+   47    1    6  0.637728   0.000000/-0.000015
+   number of occupied bands:           9
+   highest energy:  0.75460664064832006     
+ tetrahedron with ef =    0.56866 ry 
+ fermi-lda=   0.569 ryd,   7.737 ev.
+ absolute emin=  -0.166 ryd.  -2.263 ev.
+ absolute emax=   1.304 ryd.  17.737 ev.
+
+
+:NLDA  : NUMBER OF ELECTRONS          =  14.000
+
+:FLDA  : F E R M I - ENERGY           =   0.56866
+
+ ********** Information about the atomic index arrays ************
+ iatom=           1
+ isort=           1
+ csort=           1
+ maxucase=           1
+icase, iucase, jatom, latom=     1     1     1     1
+
+ *****  Arrays for correlated blocks ******
+ norbitals=           1
+ maxdim2=           5
+iorbital( 1, 1)=   1
+cix( 1, 1)=   1
+icase,lcase,icix,iorb,nind1,ip1,iSx=    1    1    1    1    5    1    1
+icase,lcase,icix,iorb,nind1,ip1,iSx=    1    1    1    1    5    2    2
+icase,lcase,icix,iorb,nind1,ip1,iSx=    1    1    1    1    5    3    3
+icase,lcase,icix,iorb,nind1,ip1,iSx=    1    1    1    1    5    4    4
+icase,lcase,icix,iorb,nind1,ip1,iSx=    1    1    1    1    5    5    5
+cixdim( 1)= 5
+iSx( 1, 1)=  1
+iSx( 2, 1)=  2
+iSx( 3, 1)=  3
+iSx( 4, 1)=  4
+iSx( 5, 1)=  5
+nindo( 1)=  5
+CF for iorb1= 1 iorb2= 1
+    1.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000   
+    0.00000000     0.00000000      -0.00000000    -1.00000000       0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000   
+    0.00000000     0.00000000       0.00000000     0.00000000       1.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000   
+    0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     1.00000000       0.00000000     0.00000000   
+    0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000       0.00000000     0.00000000       1.00000000     0.00000000   
+Rspin for iorb=  1
+ angles=   0.0000000000000000        3.1415926535897931        0.0000000000000000        0.0000000000000000        0.0000000000000000        0.0000000000000000     
+ Rspin=
+    0.000000    0.000000      0.000000    1.000000
+    0.000000    1.000000      0.000000    0.000000
+ Calculation for atom  1 which has iucase=  1
+
+          ATOMIC PARAMETERS FOR Fe        
+
+           ENERGY PARAMETERS ARE   0.34   0.34   0.47   0.34
+
+           L     U(R)          U'(R)         DU/DE        DU'/DE      NORM-U'
+           0 -0.507118E+00  0.119014E+00  0.117118E+00  0.335746E+00
+           1  0.597297E+00  0.136961E+00 -0.856473E-01 -0.328041E+00
+           2  0.173022E+00 -0.152294E+00 -0.602159E+00 -0.534760E+00
+           3  0.778457E+00  0.809530E+00 -0.594020E-01 -0.298395E+00
+LO COEFFICIENT: l,A,B,C   0          0.86635     3.75129     0.00000     0.00000
+
+LO COEFFICIENT: l,A,B,C   1          0.77410     5.39853     0.00000     0.00000
+
+LO COEFFICIENT: l,A,B,C   1          0.08996     0.00000     0.98855     0.00000
+
+LO COEFFICIENT: l,A,B,C   2          0.97217     0.27934     0.00000     0.00000
+
+ L1=           0  L2=           0
+ RADIAL INTEGRALS:
+           1           1                 1           1  0.99999999999999989        0.0000000000000000     
+           2           2                 1           1   1.7725441680235425E-002   0.0000000000000000     
+ L1=           1  L2=           1
+ RADIAL INTEGRALS:
+           1           1                 1           1   1.0000000000000000        0.0000000000000000     
+           1           3                 1           1   8.2491787010662954E-002   0.0000000000000000     
+           2           2                 1           1   1.3751079749424916E-002   0.0000000000000000     
+           2           3                 1           1  -5.9331436773456842E-002   0.0000000000000000     
+           3           1                 1           1   8.2491787010662954E-002   0.0000000000000000     
+           3           2                 1           1  -5.9331436773456842E-002   0.0000000000000000     
+           3           3                 1           1   1.0000000000000002        0.0000000000000000     
+ L1=           2  L2=           2
+ RADIAL INTEGRALS:
+           1           1                 1           1  0.99999999999999989        0.0000000000000000     
+           2           2                 1           1  0.70342674525466287        0.0000000000000000     
+ L1=           3  L2=           3
+ RADIAL INTEGRALS:
+           1           1                 1           1  0.99999999999999989        0.0000000000000000     
+           2           2                 1           1   4.0916354737148414E-003   0.0000000000000000     
+Saving potential parameters for atom 1 into  1
+pr_proc= 47  tot-k= 47
+ ------------------------------------------------------------------------------
+  0) Finished k-point number    1 with #bands=   6 nemin=   4 ne=   9
+  0) Finished k-point number    2 with #bands=   6 nemin=   4 ne=   9
+  0) Finished k-point number    3 with #bands=   6 nemin=   4 ne=  10
+  0) Finished k-point number    4 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number    5 with #bands=   7 nemin=   4 ne=  11
+  0) Finished k-point number    6 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number    7 with #bands=   6 nemin=   4 ne=  10
+  0) Finished k-point number    8 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number    9 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   10 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   11 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number   12 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   13 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   14 with #bands=   8 nemin=   4 ne=  12
+  0) Finished k-point number   15 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number   16 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   17 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   18 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   19 with #bands=   6 nemin=   4 ne=   9
+  0) Finished k-point number   20 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   21 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   22 with #bands=   6 nemin=   4 ne=  10
+  0) Finished k-point number   23 with #bands=   8 nemin=   4 ne=  12
+  0) Finished k-point number   24 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   25 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number   26 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   27 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number   28 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   29 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   30 with #bands=   6 nemin=   4 ne=  11
+  0) Finished k-point number   31 with #bands=   7 nemin=   4 ne=  11
+  0) Finished k-point number   32 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   33 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   34 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   35 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   36 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   37 with #bands=   6 nemin=   4 ne=  12
+  0) Finished k-point number   38 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   39 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   40 with #bands=   8 nemin=   4 ne=  11
+  0) Finished k-point number   41 with #bands=   6 nemin=   4 ne=  13
+  0) Finished k-point number   42 with #bands=   6 nemin=   4 ne=  13
+  0) Finished k-point number   43 with #bands=   7 nemin=   4 ne=  12
+  0) Finished k-point number   44 with #bands=   7 nemin=   4 ne=  13
+  0) Finished k-point number   45 with #bands=   6 nemin=   4 ne=  13
+  0) Finished k-point number   46 with #bands=   7 nemin=   4 ne=  13
+  0) Finished k-point number   47 with #bands=   8 nemin=   4 ne=  14
+
+
+   =====>>> CPU TIME SUMMARY
+
+            TOTAL       :      0.1
