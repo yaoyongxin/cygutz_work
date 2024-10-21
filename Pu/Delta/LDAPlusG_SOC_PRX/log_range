@@ -1,3 +1,16 @@
+# convention accoring to the manuscript.
+# u-matrix can be fetched by 
+# get V2E
+# with h5py.File("delta_Pu_0/GParam.h5", "r") as f:
+#     v2e = f["/impurity_0/V2E"][()]
+#         u = f["/"].attrs["dc_u_avg_list"][0]
+#         # u as the energy unit
+#         v2e /= u
+#
+# Convention for v2e:
+# H = 1/2 \sum{psqr} v2e[p,s,q,r] c_p^\dag c_q^\dag c_r c_s
+#
+
 (gwien_noqc) [ykent@gutzwiller LDAPlusG_SOC_PRX]$ python hembedparam.py
 u = 0.293994470595802 as the energy unit.
 ranges:
