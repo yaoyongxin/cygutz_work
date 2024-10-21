@@ -1,373 +1,433 @@
-Calculating delta_Pu_0 in /scratch/ykent33675/delta_Pu_0
-on node035 with PID 29600
-
-
-
-
-   start        Wed Jan 29 22:35:43 2014 with lapw0 (1/100 to go)
-
-   cycle 0 	Wed Jan 29 22:35:43 2014 1000/0 to go
-
->lapw0      ( 22:35:43 ) starting parallel lapw0 at Wed Jan 29 22:35:43 CST 2014
--------- .machine0 : 2 processors
-0.910u 0.092s 0:02.60 38.4%	0+0k 0+0io 10pf+0w
->lapw1      ( 22:35:46 ) starting parallel lapw1 at Wed Jan 29 22:35:46 CST 2014
-->  starting parallel LAPW1 jobs at Wed Jan 29 22:35:46 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 29792
-[2] 29811
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.173u 0.087s 0:03.26 99.6%	0+0k 0+0io 0pf+0w
-     node035(143) 3.180u 0.066s 0:03.26 99.3%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.353	 wallclock=6.52
-6.446u 0.308s 0:07.19 93.7%	0+0k 0+0io 0pf+0w
->lapwso     ( 22:35:53 ) running LAPWSO in parallel mode
-[1] 29938
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1] 29944
-[1]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.816u 0.115s 0:00.93 98.9% 0+0k 0+0io 0pf+0w
-      node035 0.812u 0.102s 0:01.15 79.1% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.628	 wallclock=2.08
-1.672u 0.329s 0:02.28 87.2%	0+0k 0+0io 0pf+0w
->dmft1      ( 22:35:56 ) 1.40user 0.12system 0:01.85elapsed 82%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 22:35:58 ) 5247.29user 9.58system 1:27:32elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 00:03:30 ) 17.93user 0.11system 0:10.11elapsed 178%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 00:03:41 ) 0.008u 0.004s 0:00.01 0.0%	0+0k 0+0io 0pf+0w
->mixer      ( 00:03:41 ) 0.012u 0.009s 0:00.07 14.2%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  1.0
-:CHARGE convergence:  0.0101676
->lapw0      ( 00:03:41 ) starting parallel lapw0 at Thu Jan 30 00:03:41 CST 2014
--------- .machine0 : 2 processors
-0.991u 0.080s 0:02.62 40.8%	0+0k 0+0io 9pf+0w
->lapw1      ( 00:03:43 ) starting parallel lapw1 at Thu Jan 30 00:03:44 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 00:03:44 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 32752
-[2] 304
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.315u 0.078s 0:03.45 97.9%	0+0k 0+0io 0pf+0w
-     node035(143) 3.303u 0.091s 0:03.43 98.8%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.618	 wallclock=6.88
-6.669u 0.318s 0:07.16 97.3%	0+0k 0+0io 0pf+0w
->lapwso     ( 00:03:51 ) running LAPWSO in parallel mode
-[1] 434
-[2] 449
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.885u 0.128s 0:01.06 94.3% 0+0k 0+0io 0pf+0w
-      node035 0.906u 0.125s 0:01.03 99.0% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.791	 wallclock=2.09
-1.833u 0.357s 0:02.16 100.9%	0+0k 0+0io 0pf+0w
->dmft1      ( 00:03:53 ) 1.46user 0.14system 0:01.89elapsed 84%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 00:03:55 ) 2591.08user 8.21system 43:16.74elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 00:47:12 ) 18.02user 0.11system 0:10.14elapsed 178%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 00:47:22 ) 0.008u 0.003s 0:00.01 0.0%	0+0k 0+0io 0pf+0w
->mixer      ( 00:47:22 ) 0.011u 0.009s 0:00.03 33.3%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  1.46999955177e-05
-:CHARGE convergence:  0.0083337
->lapw0      ( 00:47:22 ) starting parallel lapw0 at Thu Jan 30 00:47:22 CST 2014
--------- .machine0 : 2 processors
-1.009u 0.094s 0:02.65 41.1%	0+0k 0+0io 9pf+0w
->lapw1      ( 00:47:25 ) starting parallel lapw1 at Thu Jan 30 00:47:25 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 00:47:25 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 2644
-[2] 2663
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.316u 0.079s 0:03.45 97.9%	0+0k 0+0io 0pf+0w
-     node035(143) 3.307u 0.088s 0:03.39 99.7%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.623	 wallclock=6.84
-6.687u 0.313s 0:07.16 97.6%	0+0k 0+0io 0pf+0w
->lapwso     ( 00:47:32 ) running LAPWSO in parallel mode
-[1] 2793
-[2] 2799
-[2]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.922u 0.126s 0:01.05 99.0% 0+0k 0+0io 0pf+0w
-      node035 0.852u 0.139s 0:00.99 98.9% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.774	 wallclock=2.04
-1.814u 0.375s 0:02.26 96.4%	0+0k 0+0io 0pf+0w
->dmft1      ( 00:47:35 ) 1.42user 0.16system 0:02.68elapsed 59%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 00:47:38 ) 3030.65user 8.55system 50:36.54elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 01:38:14 ) 18.13user 0.13system 0:10.20elapsed 179%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 01:38:25 ) 0.012u 0.000s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 01:38:25 ) 0.013u 0.012s 0:00.07 28.5%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  8.09000048321e-05
-:CHARGE convergence:  0.0011918
->lapw0      ( 01:38:25 ) starting parallel lapw0 at Thu Jan 30 01:38:25 CST 2014
--------- .machine0 : 2 processors
-1.009u 0.091s 0:02.64 41.2%	0+0k 0+0io 9pf+0w
->lapw1      ( 01:38:28 ) starting parallel lapw1 at Thu Jan 30 01:38:28 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 01:38:28 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 4669
-[2] 4688
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.316u 0.088s 0:03.45 98.2%	0+0k 0+0io 0pf+0w
-     node035(143) 3.314u 0.086s 0:03.47 97.6%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.63	 wallclock=6.92
-6.694u 0.318s 0:07.16 97.7%	0+0k 0+0io 0pf+0w
->lapwso     ( 01:38:35 ) running LAPWSO in parallel mode
-[1] 4817
-[2] 4824
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.885u 0.133s 0:01.05 96.1% 0+0k 0+0io 0pf+0w
-      node035 0.870u 0.135s 0:01.02 98.0% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.755	 wallclock=2.07
-1.797u 0.374s 0:02.16 100.0%	0+0k 0+0io 0pf+0w
->dmft1      ( 01:38:37 ) 1.44user 0.15system 0:01.89elapsed 84%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 01:38:39 ) 2888.15user 8.39system 48:14.08elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 02:26:53 ) 18.16user 0.10system 0:10.21elapsed 178%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 02:27:03 ) 0.010u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 02:27:03 ) 0.015u 0.006s 0:00.03 33.3%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  0.00010150000162
-:CHARGE convergence:  0.0039727
->lapw0      ( 02:27:03 ) starting parallel lapw0 at Thu Jan 30 02:27:04 CST 2014
--------- .machine0 : 2 processors
-0.974u 0.106s 0:02.62 40.8%	0+0k 0+0io 9pf+0w
->lapw1      ( 02:27:06 ) starting parallel lapw1 at Thu Jan 30 02:27:06 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 02:27:06 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 6589
-[2] 6608
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.287u 0.080s 0:03.41 98.5%	0+0k 0+0io 0pf+0w
-     node035(143) 3.290u 0.096s 0:03.44 98.2%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.577	 wallclock=6.85
-6.632u 0.320s 0:07.16 97.0%	0+0k 0+0io 0pf+0w
->lapwso     ( 02:27:13 ) running LAPWSO in parallel mode
-[1] 6737
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1] 6744
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.811u 0.122s 0:00.99 93.9% 0+0k 0+0io 0pf+0w
-      node035 0.806u 0.104s 0:00.91 98.9% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.617	 wallclock=1.9
-1.657u 0.325s 0:02.12 92.9%	0+0k 0+0io 0pf+0w
->dmft1      ( 02:27:16 ) 1.37user 0.11system 0:01.81elapsed 81%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 02:27:17 ) 3781.76user 7.51system 1:03:06elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 03:30:24 ) 17.86user 0.09system 0:10.06elapsed 178%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 03:30:34 ) 0.010u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 03:30:34 ) 0.010u 0.011s 0:00.03 66.6%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  8.06099997135e-05
-:CHARGE convergence:  0.0015056
->lapw0      ( 03:30:34 ) starting parallel lapw0 at Thu Jan 30 03:30:34 CST 2014
--------- .machine0 : 2 processors
-0.981u 0.092s 0:02.63 40.6%	0+0k 0+0io 9pf+0w
->lapw1      ( 03:30:37 ) starting parallel lapw1 at Thu Jan 30 03:30:37 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 03:30:37 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 8691
-[2] 8710
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.302u 0.091s 0:03.45 98.2%	0+0k 0+0io 0pf+0w
-     node035(143) 3.254u 0.103s 0:03.38 99.1%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.556	 wallclock=6.83
-6.614u 0.343s 0:07.17 96.9%	0+0k 0+0io 0pf+0w
->lapwso     ( 03:30:44 ) running LAPWSO in parallel mode
-[1] 8839
-[2] 8845
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]    Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.910u 0.136s 0:01.05 99.0% 0+0k 0+0io 0pf+0w
-      node035 0.874u 0.121s 0:01.01 98.0% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.784	 wallclock=2.06
-1.821u 0.373s 0:02.14 102.3%	0+0k 0+0io 0pf+0w
->dmft1      ( 03:30:46 ) 1.43user 0.15system 0:01.88elapsed 84%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 03:30:48 ) 2753.47user 8.39system 45:58.95elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 04:16:47 ) 18.42user 0.10system 0:13.35elapsed 138%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 04:17:01 ) 0.011u 0.001s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 04:17:04 ) 0.013u 0.008s 0:00.02 50.0%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  1.00500037661e-05
-:CHARGE convergence:  0.0013646
->lapw0      ( 04:17:04 ) starting parallel lapw0 at Thu Jan 30 04:17:04 CST 2014
--------- .machine0 : 2 processors
-1.012u 0.092s 0:02.64 41.6%	0+0k 0+0io 9pf+0w
->lapw1      ( 04:17:06 ) starting parallel lapw1 at Thu Jan 30 04:17:07 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 04:17:07 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 10605
-[2] 10624
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.315u 0.080s 0:03.40 99.7%	0+0k 0+0io 0pf+0w
-     node035(143) 3.270u 0.082s 0:03.39 98.8%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.585	 wallclock=6.79
-6.644u 0.301s 0:07.16 96.9%	0+0k 0+0io 0pf+0w
->lapwso     ( 04:17:14 ) running LAPWSO in parallel mode
-[1] 10754
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1] 10760
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.819u 0.115s 0:00.98 93.8% 0+0k 0+0io 0pf+0w
-      node035 0.801u 0.110s 0:00.91 100.0% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.62	 wallclock=1.89
-1.657u 0.330s 0:02.12 93.3%	0+0k 0+0io 0pf+0w
->dmft1      ( 04:17:16 ) 1.37user 0.11system 0:01.82elapsed 81%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 04:17:18 ) 2921.67user 7.59system 48:46.67elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 05:06:05 ) 17.03user 0.08system 0:09.64elapsed 177%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 05:06:14 ) 0.010u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 05:06:14 ) 0.016u 0.007s 0:00.02 50.0%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  1.35200025397e-05
-:CHARGE convergence:  0.000525
->lapw0      ( 05:06:14 ) starting parallel lapw0 at Thu Jan 30 05:06:15 CST 2014
--------- .machine0 : 2 processors
-0.893u 0.076s 0:02.57 37.3%	0+0k 0+0io 9pf+0w
->lapw1      ( 05:06:17 ) starting parallel lapw1 at Thu Jan 30 05:06:17 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 05:06:17 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 12679
-[2] 12698
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.200u 0.084s 0:03.31 99.0%	0+0k 0+0io 0pf+0w
-     node035(143) 3.169u 0.070s 0:03.29 98.1%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.369	 wallclock=6.6
-6.439u 0.291s 0:07.16 93.8%	0+0k 0+0io 0pf+0w
->lapwso     ( 05:06:24 ) running LAPWSO in parallel mode
-[1] 12827
-[2] 12833
-[2]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.873u 0.138s 0:01.03 97.0% 0+0k 0+0io 0pf+0w
-      node035 0.878u 0.117s 0:00.99 98.9% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.751	 wallclock=2.02
-1.792u 0.357s 0:02.12 100.9%	0+0k 0+0io 0pf+0w
->dmft1      ( 05:06:26 ) 1.37user 0.13system 0:01.82elapsed 82%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 05:06:28 ) 2332.93user 7.25system 38:57.94elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 05:45:26 ) 17.79user 0.11system 0:19.02elapsed 94%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 05:45:45 ) 0.009u 0.002s 0:00.01 0.0%	0+0k 0+0io 0pf+0w
->mixer      ( 05:45:45 ) 0.016u 0.006s 0:00.02 50.0%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  1.27599996631e-05
-:CHARGE convergence:  0.0014953
->lapw0      ( 05:45:46 ) starting parallel lapw0 at Thu Jan 30 05:45:46 CST 2014
--------- .machine0 : 2 processors
-0.975u 0.087s 0:03.42 30.7%	0+0k 0+0io 9pf+0w
->lapw1      ( 05:45:49 ) starting parallel lapw1 at Thu Jan 30 05:45:49 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 05:45:49 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 14041
-[2] 14060
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.306u 0.086s 0:03.43 98.5%	0+0k 0+0io 0pf+0w
-     node035(143) 3.296u 0.090s 0:03.44 98.2%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.602	 wallclock=6.87
-6.666u 0.312s 0:07.16 97.3%	0+0k 0+0io 0pf+0w
->lapwso     ( 05:45:56 ) running LAPWSO in parallel mode
-[1] 14189
-[2] 14196
-[2]  - Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.891u 0.122s 0:01.04 97.1% 0+0k 0+0io 0pf+0w
-      node035 0.863u 0.127s 0:00.99 98.9% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.754	 wallclock=2.03
-1.795u 0.356s 0:02.12 100.9%	0+0k 0+0io 0pf+0w
->dmft1      ( 05:45:58 ) 1.39user 0.14system 0:01.85elapsed 83%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 05:46:00 ) 1684.25user 7.48system 28:09.73elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 06:14:11 ) 17.08user 0.10system 0:09.68elapsed 177%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 06:14:20 ) 0.015u 0.002s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 06:14:20 ) 0.015u 0.011s 0:00.05 40.0%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  4.21499935328e-05
-:CHARGE convergence:  0.0025928
->lapw0      ( 06:14:21 ) starting parallel lapw0 at Thu Jan 30 06:14:21 CST 2014
--------- .machine0 : 2 processors
-0.943u 0.091s 0:02.60 39.6%	0+0k 0+0io 10pf+0w
->lapw1      ( 06:14:23 ) starting parallel lapw1 at Thu Jan 30 06:14:23 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 06:14:23 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 14982
-[2] 15001
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.188u 0.069s 0:03.27 99.0%	0+0k 0+0io 0pf+0w
-     node035(143) 3.190u 0.068s 0:03.29 98.7%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.378	 wallclock=6.56
-6.458u 0.285s 0:07.18 93.7%	0+0k 0+0io 0pf+0w
->lapwso     ( 06:14:31 ) running LAPWSO in parallel mode
-[1] 15131
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1] 15137
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.827u 0.113s 0:00.94 98.9% 0+0k 0+0io 0pf+0w
-      node035 0.804u 0.111s 0:00.91 100.0% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.631	 wallclock=1.85
-1.681u 0.347s 0:02.15 93.9%	0+0k 0+0io 0pf+0w
->dmft1      ( 06:14:33 ) 1.39user 0.11system 0:01.83elapsed 82%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 06:14:35 ) 2274.71user 7.11system 37:59.39elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 06:52:34 ) 17.13user 0.09system 0:09.69elapsed 177%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 06:52:44 ) 0.014u 0.003s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 06:52:44 ) 0.009u 0.016s 0:00.04 25.0%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  2.96099970001e-05
-:CHARGE convergence:  0.0009656
->lapw0      ( 06:52:44 ) starting parallel lapw0 at Thu Jan 30 06:52:44 CST 2014
--------- .machine0 : 2 processors
-0.912u 0.093s 0:02.59 38.6%	0+0k 0+0io 9pf+0w
->lapw1      ( 06:52:47 ) starting parallel lapw1 at Thu Jan 30 06:52:47 CST 2014
-->  starting parallel LAPW1 jobs at Thu Jan 30 06:52:47 CST 2014
-running LAPW1 in parallel mode (using .machines)
-2 number_of_parallel_jobs
-[1] 16331
-[2] 16350
-[1]  - Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[2]  + Done                          ( cd $PWD; $t $exe ${def}_$loop.def; rm -f .lock_$lockfile[$p] ) >>  ...
-     node035(143) 3.176u 0.066s 0:03.25 99.3%	0+0k 0+0io 0pf+0w
-     node035(143) 3.164u 0.072s 0:03.26 99.0%	0+0k 0+0io 0pf+0w
-   Summary of lapw1para:
-   node035	 k=286	 user=6.34	 wallclock=6.51
-6.403u 0.302s 0:07.32 91.5%	0+0k 0+0io 0pf+0w
->lapwso     ( 06:52:54 ) running LAPWSO in parallel mode
-[1] 16479
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-[1] 16485
-[1]  + Done                          ( cd $PWD; $t $exe ${def}_${loop}.def; rm -f .lock_$lockfile[$p] ) >>  ...
-      node035 0.815u 0.111s 0:00.94 97.8% 0+0k 0+0io 0pf+0w
-      node035 0.806u 0.112s 0:00.92 98.9% 0+0k 0+0io 0pf+0w
-   Summary of lapwsopara:
-   node035	 user=1.621	 wallclock=1.86
-1.663u 0.351s 0:02.15 93.4%	0+0k 0+0io 0pf+0w
->dmft1      ( 06:52:56 ) 1.38user 0.12system 0:01.83elapsed 82%CPU (0avgtext+0avgdata 0maxresident)k
->FastGutz   ( 06:52:58 ) 1985.75user 7.02system 33:10.10elapsed 100%CPU (0avgtext+0avgdata 0maxresident)k
->dmft2      ( 07:26:08 ) 17.04user 0.10system 0:12.66elapsed 135%CPU (0avgtext+0avgdata 0maxresident)k
->lcore      ( 07:26:21 ) 0.014u 0.003s 0:00.01 100.0%	0+0k 0+0io 0pf+0w
->mixer      ( 07:26:21 ) 0.015u 0.010s 0:00.04 50.0%	0+0k 0+0io 0pf+0w
-:ENERGY convergence:  2.77999788523e-06
-:CHARGE convergence:  0.0008721
+Calculating delta_Pu_0 in /home/ykent/GitHub/cygutz_work/Pu/Delta/LDAPlusG_SOC_PRX/delta_Pu_0 
+on node007 with PID 126790
+   start at Sat Oct 19 15:47:08 2024 with lapw0 
+   1/100 to go.
+>lapw0      (15:47:08) 0.420u 0.009s 0:00.44 95.4%	0+0k 176+256io 0pf+0w
+>lapw1      (15:47:09) 3.220u 0.195s 0:03.47 98.2%	0+0k 184+33456io 0pf+0w
+>lapwso     (15:47:12) 1.006u 0.130s 0:01.25 90.4%	0+0k 31520+103056io 0pf+0w
+>gwien1     (15:47:13) 1.38user 0.13system 0:01.75elapsed 86%CPU (0avgtext+0avgdata 75460maxresident)k
+>CyGInit    (15:47:15) 0.48user 0.10system 0:00.68elapsed 86%CPU (0avgtext+0avgdata 126428maxresident)k
+>gwien2     (16:33:35) 7.16user 0.15system 0:07.41elapsed 98%CPU (0avgtext+0avgdata 35432maxresident)k
+>lcore      (16:33:42) 0.012u 0.003s 0:00.02 50.0%	0+0k 8+248io 0pf+0w
+>mixer      (16:33:42) 0.010u 0.003s 0:00.03 33.3%	0+0k 376+480io 0pf+0w
+:ENERGY convergence: 0.0
+:CHARGE convergence: 0.0359155
+:VDC convergence: 0.05574210317721917
+>lapw0      (16:33:42) 0.418u 0.008s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (16:33:43) 3.240u 0.225s 0:03.52 98.2%	0+0k 176+33464io 0pf+0w
+>lapwso     (16:33:46) 1.043u 0.112s 0:01.28 89.8%	0+0k 31520+103064io 0pf+0w
+>gwien1     (16:33:48) 1.41user 0.13system 0:01.75elapsed 88%CPU (0avgtext+0avgdata 75184maxresident)k
+>CyGInit    (16:33:50) 0.49user 0.10system 0:00.69elapsed 86%CPU (0avgtext+0avgdata 124164maxresident)k
+>gwien2     (17:11:37) 7.55user 0.17system 0:07.83elapsed 98%CPU (0avgtext+0avgdata 31784maxresident)k
+>lcore      (17:11:45) 0.010u 0.005s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (17:11:45) 0.007u 0.004s 0:00.02 0.0%	0+0k 512+504io 0pf+0w
+:ENERGY convergence: 0.0003613400040194392
+:CHARGE convergence: 0.0402887
+:VDC convergence: 0.05143481983175757
+>lapw0      (17:11:45) 0.439u 0.008s 0:00.46 93.4%	0+0k 176+264io 0pf+0w
+>lapw1      (17:11:45) 3.320u 0.226s 0:03.60 98.3%	0+0k 176+33464io 0pf+0w
+>lapwso     (17:11:49) 1.044u 0.139s 0:01.31 89.3%	0+0k 31520+103064io 0pf+0w
+>gwien1     (17:11:50) 1.43user 0.14system 0:01.84elapsed 85%CPU (0avgtext+0avgdata 77172maxresident)k
+>CyGInit    (17:11:52) 0.49user 0.11system 0:01.39elapsed 43%CPU (0avgtext+0avgdata 126232maxresident)k
+>gwien2     (17:47:04) 7.44user 0.15system 0:07.70elapsed 98%CPU (0avgtext+0avgdata 33392maxresident)k
+>lcore      (17:47:12) 0.013u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (17:47:12) 0.008u 0.004s 0:00.02 0.0%	0+0k 512+512io 0pf+0w
+:ENERGY convergence: 9.221999789588153e-05
+:CHARGE convergence: 0.0346739
+:VDC convergence: 0.0459838312786629
+>lapw0      (17:47:12) 0.433u 0.010s 0:00.45 97.7%	0+0k 176+264io 0pf+0w
+>lapw1      (17:47:12) 3.298u 0.214s 0:03.57 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (17:47:16) 1.056u 0.119s 0:01.30 89.2%	0+0k 31520+103048io 0pf+0w
+>gwien1     (17:47:17) 1.41user 0.14system 0:01.77elapsed 87%CPU (0avgtext+0avgdata 77024maxresident)k
+>CyGInit    (17:47:19) 0.50user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 124492maxresident)k
+>gwien2     (18:22:01) 7.35user 0.15system 0:07.62elapsed 98%CPU (0avgtext+0avgdata 31732maxresident)k
+>lcore      (18:22:09) 0.011u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (18:22:09) 0.012u 0.001s 0:00.02 50.0%	0+0k 512+512io 0pf+0w
+:ENERGY convergence: 0.00018879999697674066
+:CHARGE convergence: 0.0171013
+:VDC convergence: 0.03930502616624487
+>lapw0      (18:22:09) 0.418u 0.013s 0:00.45 93.3%	0+0k 176+264io 0pf+0w
+>lapw1      (18:22:09) 3.302u 0.232s 0:03.59 98.3%	0+0k 176+33464io 0pf+0w
+>lapwso     (18:22:13) 1.043u 0.129s 0:01.30 89.2%	0+0k 31520+103016io 0pf+0w
+>gwien1     (18:22:14) 1.42user 0.15system 0:01.79elapsed 87%CPU (0avgtext+0avgdata 77492maxresident)k
+>CyGInit    (18:22:16) 0.49user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 126252maxresident)k
+>gwien2     (18:56:52) 7.15user 0.15system 0:07.40elapsed 98%CPU (0avgtext+0avgdata 35600maxresident)k
+>lcore      (18:56:59) 0.011u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (18:56:59) 0.011u 0.003s 0:00.03 33.3%	0+0k 512+512io 0pf+0w
+:ENERGY convergence: 6.46800035610795e-05
+:CHARGE convergence: 0.0232566
+:VDC convergence: 0.03506726570881824
+>lapw0      (18:56:59) 0.420u 0.013s 0:00.45 95.5%	0+0k 176+264io 0pf+0w
+>lapw1      (18:57:00) 3.258u 0.204s 0:03.52 98.0%	0+0k 176+33472io 0pf+0w
+>lapwso     (18:57:03) 1.043u 0.108s 0:01.28 89.0%	0+0k 31528+103000io 0pf+0w
+>gwien1     (18:57:05) 1.40user 0.14system 0:01.77elapsed 87%CPU (0avgtext+0avgdata 77176maxresident)k
+>CyGInit    (18:57:07) 0.49user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 126284maxresident)k
+>gwien2     (19:31:37) 7.31user 0.16system 0:07.58elapsed 98%CPU (0avgtext+0avgdata 31804maxresident)k
+>lcore      (19:31:45) 0.013u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (19:31:45) 0.010u 0.003s 0:00.02 50.0%	0+0k 512+512io 0pf+0w
+:ENERGY convergence: 0.0004072899973834865
+:CHARGE convergence: 0.0670514
+:VDC convergence: 0.01985488668859814
+>lapw0      (19:31:45) 0.443u 0.010s 0:00.46 97.8%	0+0k 176+264io 0pf+0w
+>lapw1      (19:31:45) 3.330u 0.214s 0:03.60 98.3%	0+0k 176+33472io 0pf+0w
+>lapwso     (19:31:49) 1.060u 0.123s 0:01.31 90.0%	0+0k 31528+103000io 0pf+0w
+>gwien1     (19:31:50) 1.42user 0.16system 0:01.79elapsed 88%CPU (0avgtext+0avgdata 75036maxresident)k
+>CyGInit    (19:31:52) 0.49user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 124272maxresident)k
+>gwien2     (20:06:19) 7.20user 0.14system 0:07.43elapsed 98%CPU (0avgtext+0avgdata 31692maxresident)k
+>lcore      (20:06:26) 0.014u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (20:06:26) 0.010u 0.004s 0:00.03 33.3%	0+0k 656+512io 0pf+0w
+:ENERGY convergence: 2.6900001103058457e-05
+:CHARGE convergence: 0.0627034
+:VDC convergence: 0.018118839419700716
+>lapw0      (20:06:26) 0.431u 0.010s 0:00.45 97.7%	0+0k 176+264io 0pf+0w
+>lapw1      (20:06:27) 3.198u 0.213s 0:03.47 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (20:06:30) 1.004u 0.131s 0:01.26 89.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (20:06:32) 1.38user 0.14system 0:01.73elapsed 88%CPU (0avgtext+0avgdata 75300maxresident)k
+>CyGInit    (20:06:34) 0.49user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 126328maxresident)k
+>gwien2     (20:40:42) 7.43user 0.17system 0:07.72elapsed 98%CPU (0avgtext+0avgdata 31576maxresident)k
+>lcore      (20:40:50) 0.013u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (20:40:50) 0.009u 0.005s 0:00.03 0.0%	0+0k 672+512io 0pf+0w
+:ENERGY convergence: 7.183999696280807e-05
+:CHARGE convergence: 0.0317856
+:VDC convergence: 0.02097928299788876
+>lapw0      (20:40:50) 0.439u 0.007s 0:00.46 93.4%	0+0k 176+264io 0pf+0w
+>lapw1      (20:40:51) 3.352u 0.202s 0:03.62 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (20:40:54) 1.049u 0.135s 0:01.31 89.3%	0+0k 31520+103016io 0pf+0w
+>gwien1     (20:40:56) 1.44user 0.13system 0:01.77elapsed 89%CPU (0avgtext+0avgdata 75212maxresident)k
+>CyGInit    (20:40:58) 0.50user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 124372maxresident)k
+>gwien2     (21:17:30) 7.31user 0.17system 0:09.20elapsed 81%CPU (0avgtext+0avgdata 33356maxresident)k
+>lcore      (21:17:39) 0.012u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (21:17:39) 0.012u 0.002s 0:00.03 33.3%	0+0k 696+512io 0pf+0w
+:ENERGY convergence: 0.00019258999964222312
+:CHARGE convergence: 0.0020363
+:VDC convergence: 0.023537153908178343
+>lapw0      (21:17:39) 0.431u 0.014s 0:00.46 95.6%	0+0k 176+264io 0pf+0w
+>lapw1      (21:17:40) 3.253u 0.190s 0:03.50 98.2%	0+0k 176+33464io 0pf+0w
+>lapwso     (21:17:43) 1.024u 0.133s 0:01.29 89.1%	0+0k 31520+103016io 0pf+0w
+>gwien1     (21:17:44) 1.40user 0.14system 0:01.78elapsed 86%CPU (0avgtext+0avgdata 75224maxresident)k
+>CyGInit    (21:17:47) 0.49user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 124240maxresident)k
+>gwien2     (21:50:47) 7.22user 0.15system 0:07.48elapsed 98%CPU (0avgtext+0avgdata 31440maxresident)k
+>lcore      (21:50:54) 0.013u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (21:50:54) 0.013u 0.002s 0:00.03 33.3%	0+0k 720+512io 0pf+0w
+:ENERGY convergence: 8.248999802162871e-05
+:CHARGE convergence: 0.0032671
+:VDC convergence: 0.021948299069076693
+>lapw0      (21:50:54) 0.413u 0.010s 0:00.43 97.6%	0+0k 176+264io 0pf+0w
+>lapw1      (21:50:55) 3.243u 0.207s 0:03.51 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (21:50:58) 1.019u 0.130s 0:01.27 89.7%	0+0k 31520+103016io 0pf+0w
+>gwien1     (21:51:00) 1.40user 0.15system 0:01.81elapsed 85%CPU (0avgtext+0avgdata 75388maxresident)k
+>CyGInit    (21:51:02) 0.50user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 124316maxresident)k
+>gwien2     (22:24:04) 7.19user 0.18system 0:07.48elapsed 98%CPU (0avgtext+0avgdata 33652maxresident)k
+>lcore      (22:24:11) 0.012u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (22:24:11) 0.014u 0.002s 0:00.03 33.3%	0+0k 744+512io 0pf+0w
+:ENERGY convergence: 5.385999975260347e-05
+:CHARGE convergence: 0.0053409
+:VDC convergence: 0.020116311485220084
+>lapw0      (22:24:11) 0.414u 0.011s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (22:24:12) 3.248u 0.209s 0:03.51 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (22:24:15) 1.029u 0.122s 0:01.28 89.0%	0+0k 31520+103016io 0pf+0w
+>gwien1     (22:24:17) 1.40user 0.15system 0:01.74elapsed 88%CPU (0avgtext+0avgdata 75224maxresident)k
+>CyGInit    (22:24:19) 0.50user 0.10system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 126216maxresident)k
+>gwien2     (22:57:29) 7.17user 0.15system 0:07.43elapsed 98%CPU (0avgtext+0avgdata 32000maxresident)k
+>lcore      (22:57:37) 0.012u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (22:57:37) 0.012u 0.004s 0:00.03 33.3%	0+0k 768+512io 0pf+0w
+:ENERGY convergence: 4.864000220550224e-05
+:CHARGE convergence: 0.0092558
+:VDC convergence: 0.018696707683647507
+>lapw0      (22:57:37) 0.419u 0.007s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (22:57:37) 3.203u 0.205s 0:03.47 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (22:57:41) 1.032u 0.111s 0:01.27 89.7%	0+0k 31520+103016io 0pf+0w
+>gwien1     (22:57:42) 1.37user 0.14system 0:01.71elapsed 88%CPU (0avgtext+0avgdata 75412maxresident)k
+>CyGInit    (22:57:44) 0.49user 0.11system 0:00.68elapsed 87%CPU (0avgtext+0avgdata 126224maxresident)k
+>gwien2     (23:30:31) 7.18user 0.15system 0:07.45elapsed 98%CPU (0avgtext+0avgdata 31720maxresident)k
+>lcore      (23:30:38) 0.009u 0.006s 0:00.02 0.0%	0+0k 8+256io 0pf+0w
+>mixer      (23:30:38) 0.013u 0.002s 0:00.03 33.3%	0+0k 792+512io 0pf+0w
+:ENERGY convergence: 1.2000236893072724e-07
+:CHARGE convergence: 0.0088883
+:VDC convergence: 0.016802269313075602
+>lapw0      (23:30:39) 0.415u 0.010s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (23:30:39) 3.203u 0.206s 0:03.47 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (23:30:42) 0.989u 0.135s 0:01.25 88.8%	0+0k 31520+103016io 0pf+0w
+>gwien1     (23:30:44) 1.39user 0.15system 0:01.80elapsed 85%CPU (0avgtext+0avgdata 77296maxresident)k
+>CyGInit    (23:30:46) 0.50user 0.11system 0:00.72elapsed 85%CPU (0avgtext+0avgdata 124364maxresident)k
+>gwien2     (00:03:27) 7.21user 0.14system 0:07.46elapsed 98%CPU (0avgtext+0avgdata 33708maxresident)k
+>lcore      (00:03:34) 0.011u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (00:03:34) 0.012u 0.005s 0:00.03 33.3%	0+0k 816+512io 0pf+0w
+:ENERGY convergence: 9.855999815044925e-05
+:CHARGE convergence: 0.0162237
+:VDC convergence: 0.016241808079883402
+>lapw0      (00:03:34) 0.414u 0.011s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (00:03:35) 3.335u 0.218s 0:03.61 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (00:03:38) 1.027u 0.123s 0:01.28 89.0%	0+0k 31520+103016io 0pf+0w
+>gwien1     (00:03:40) 1.40user 0.13system 0:01.74elapsed 88%CPU (0avgtext+0avgdata 75576maxresident)k
+>CyGInit    (00:03:42) 0.49user 0.10system 0:00.69elapsed 86%CPU (0avgtext+0avgdata 124164maxresident)k
+>gwien2     (00:36:23) 7.12user 0.16system 0:07.38elapsed 98%CPU (0avgtext+0avgdata 33384maxresident)k
+>lcore      (00:36:30) 0.013u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (00:36:30) 0.010u 0.008s 0:00.03 33.3%	0+0k 840+512io 0pf+0w
+:ENERGY convergence: 7.4499985203146935e-06
+:CHARGE convergence: 0.017214
+:VDC convergence: 0.014797142643047767
+>lapw0      (00:36:30) 0.419u 0.006s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (00:36:31) 3.234u 0.214s 0:03.50 98.2%	0+0k 176+33464io 0pf+0w
+>lapwso     (00:36:34) 1.012u 0.128s 0:01.27 88.9%	0+0k 31520+103016io 0pf+0w
+>gwien1     (00:36:36) 1.39user 0.13system 0:01.74elapsed 87%CPU (0avgtext+0avgdata 75232maxresident)k
+>CyGInit    (00:36:38) 0.50user 0.09system 0:00.70elapsed 85%CPU (0avgtext+0avgdata 124592maxresident)k
+>gwien2     (01:09:32) 7.38user 0.15system 0:07.67elapsed 98%CPU (0avgtext+0avgdata 33816maxresident)k
+>lcore      (01:09:40) 0.013u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (01:09:40) 0.014u 0.003s 0:00.03 33.3%	0+0k 864+512io 0pf+0w
+:ENERGY convergence: 4.0049999370239675e-05
+:CHARGE convergence: 0.0205372
+:VDC convergence: 0.013826219812869134
+>lapw0      (01:09:40) 0.419u 0.007s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (01:09:41) 3.337u 0.212s 0:03.61 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (01:09:44) 1.045u 0.132s 0:01.32 88.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (01:09:46) 1.41user 0.14system 0:01.77elapsed 87%CPU (0avgtext+0avgdata 75328maxresident)k
+>CyGInit    (01:09:48) 0.50user 0.11system 0:00.77elapsed 80%CPU (0avgtext+0avgdata 126292maxresident)k
+>gwien2     (01:43:11) 7.31user 0.17system 0:07.69elapsed 97%CPU (0avgtext+0avgdata 31740maxresident)k
+>lcore      (01:43:19) 0.012u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (01:43:19) 0.012u 0.006s 0:00.03 33.3%	0+0k 888+512io 0pf+0w
+:ENERGY convergence: 4.320000152802095e-05
+:CHARGE convergence: 0.0242993
+:VDC convergence: 0.013013559115249596
+>lapw0      (01:43:19) 0.438u 0.015s 0:00.47 93.6%	0+0k 176+264io 0pf+0w
+>lapw1      (01:43:20) 3.319u 0.200s 0:03.58 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (01:43:23) 1.040u 0.129s 0:01.31 88.5%	0+0k 31520+103016io 0pf+0w
+>gwien1     (01:43:25) 1.44user 0.13system 0:01.80elapsed 87%CPU (0avgtext+0avgdata 75072maxresident)k
+>CyGInit    (01:43:27) 0.49user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 124072maxresident)k
+>gwien2     (02:16:48) 7.45user 0.15system 0:07.71elapsed 98%CPU (0avgtext+0avgdata 31804maxresident)k
+>lcore      (02:16:56) 0.014u 0.002s 0:00.05 20.0%	0+0k 8+256io 0pf+0w
+>mixer      (02:16:56) 0.015u 0.002s 0:00.04 25.0%	0+0k 912+512io 0pf+0w
+:ENERGY convergence: 5.23999915458262e-06
+:CHARGE convergence: 0.0255882
+:VDC convergence: 0.011922996223702853
+>lapw0      (02:16:56) 0.415u 0.013s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (02:16:57) 3.342u 0.197s 0:03.59 98.3%	0+0k 176+33464io 0pf+0w
+>lapwso     (02:17:01) 1.066u 0.112s 0:01.31 89.3%	0+0k 31520+103016io 0pf+0w
+>gwien1     (02:17:02) 1.43user 0.15system 0:01.83elapsed 86%CPU (0avgtext+0avgdata 77420maxresident)k
+>CyGInit    (02:17:04) 0.49user 0.11system 0:00.71elapsed 84%CPU (0avgtext+0avgdata 124256maxresident)k
+>gwien2     (02:49:53) 7.19user 0.15system 0:07.44elapsed 98%CPU (0avgtext+0avgdata 31644maxresident)k
+>lcore      (02:50:01) 0.012u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (02:50:01) 0.013u 0.004s 0:00.03 33.3%	0+0k 936+512io 0pf+0w
+:ENERGY convergence: 7.033000292722136e-05
+:CHARGE convergence: 0.0309769
+:VDC convergence: 0.01155559863184008
+>lapw0      (02:50:01) 0.426u 0.014s 0:00.45 95.5%	0+0k 176+264io 0pf+0w
+>lapw1      (02:50:02) 3.241u 0.209s 0:03.51 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (02:50:05) 1.014u 0.124s 0:01.26 89.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (02:50:06) 1.38user 0.13system 0:01.75elapsed 86%CPU (0avgtext+0avgdata 75472maxresident)k
+>CyGInit    (02:50:09) 0.49user 0.10system 0:00.70elapsed 84%CPU (0avgtext+0avgdata 124272maxresident)k
+>gwien2     (03:22:43) 7.19user 0.15system 0:07.45elapsed 98%CPU (0avgtext+0avgdata 31908maxresident)k
+>lcore      (03:22:50) 0.009u 0.006s 0:00.03 0.0%	0+0k 8+256io 0pf+0w
+>mixer      (03:22:50) 0.013u 0.004s 0:00.04 25.0%	0+0k 960+512io 0pf+0w
+:ENERGY convergence: 5.780000356025994e-05
+:CHARGE convergence: 0.0280192
+:VDC convergence: 0.009946577280566249
+>lapw0      (03:22:50) 0.415u 0.008s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (03:22:51) 3.193u 0.228s 0:03.48 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (03:22:54) 1.033u 0.107s 0:01.29 87.5%	0+0k 31520+103016io 0pf+0w
+>gwien1     (03:22:56) 1.38user 0.15system 0:01.75elapsed 87%CPU (0avgtext+0avgdata 75476maxresident)k
+>CyGInit    (03:22:58) 0.50user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 124320maxresident)k
+>gwien2     (03:56:10) 7.27user 0.14system 0:08.37elapsed 88%CPU (0avgtext+0avgdata 31884maxresident)k
+>lcore      (03:56:18) 0.011u 0.005s 0:00.03 33.3%	0+0k 8+256io 0pf+0w
+>mixer      (03:56:18) 0.014u 0.003s 0:00.04 25.0%	0+0k 984+512io 0pf+0w
+:ENERGY convergence: 5.624000186799094e-05
+:CHARGE convergence: 0.0328134
+:VDC convergence: 0.009675882052802454
+>lapw0      (03:56:19) 0.416u 0.007s 0:00.45 91.1%	0+0k 176+264io 0pf+0w
+>lapw1      (03:56:19) 3.190u 0.222s 0:03.48 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (03:56:23) 1.001u 0.133s 0:01.26 89.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (03:56:24) 1.37user 0.13system 0:01.77elapsed 85%CPU (0avgtext+0avgdata 75228maxresident)k
+>CyGInit    (03:56:26) 0.49user 0.11system 0:00.70elapsed 85%CPU (0avgtext+0avgdata 124548maxresident)k
+>gwien2     (04:28:58) 7.26user 0.15system 0:07.52elapsed 98%CPU (0avgtext+0avgdata 31336maxresident)k
+>lcore      (04:29:06) 0.013u 0.002s 0:00.03 33.3%	0+0k 8+256io 0pf+0w
+>mixer      (04:29:06) 0.011u 0.006s 0:00.03 33.3%	0+0k 1008+512io 0pf+0w
+:ENERGY convergence: 5.9010002587456256e-05
+:CHARGE convergence: 0.0296936
+:VDC convergence: 0.00826066914133694
+>lapw0      (04:29:06) 0.415u 0.012s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (04:29:07) 3.202u 0.215s 0:03.48 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (04:29:10) 1.026u 0.130s 0:01.29 89.1%	0+0k 31520+103016io 0pf+0w
+>gwien1     (04:29:12) 1.43user 0.12system 0:01.76elapsed 88%CPU (0avgtext+0avgdata 75272maxresident)k
+>CyGInit    (04:29:14) 0.48user 0.11system 0:00.69elapsed 86%CPU (0avgtext+0avgdata 124232maxresident)k
+>gwien2     (05:01:43) 7.22user 0.16system 0:07.49elapsed 98%CPU (0avgtext+0avgdata 31836maxresident)k
+>lcore      (05:01:51) 0.012u 0.004s 0:00.03 33.3%	0+0k 8+256io 0pf+0w
+>mixer      (05:01:51) 0.014u 0.003s 0:00.05 20.0%	0+0k 1032+512io 0pf+0w
+:ENERGY convergence: 6.22100051259622e-05
+:CHARGE convergence: 0.0347573
+:VDC convergence: 0.00821484695709529
+>lapw0      (05:01:51) 0.414u 0.012s 0:00.45 93.3%	0+0k 176+264io 0pf+0w
+>lapw1      (05:01:52) 3.222u 0.203s 0:03.49 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (05:01:55) 0.992u 0.157s 0:01.31 87.0%	0+0k 31520+103016io 0pf+0w
+>gwien1     (05:01:57) 1.38user 0.14system 0:01.78elapsed 85%CPU (0avgtext+0avgdata 75104maxresident)k
+>CyGInit    (05:01:59) 0.49user 0.10system 0:00.71elapsed 84%CPU (0avgtext+0avgdata 124284maxresident)k
+>gwien2     (05:34:22) 7.16user 0.15system 0:07.42elapsed 98%CPU (0avgtext+0avgdata 33960maxresident)k
+>lcore      (05:34:29) 0.014u 0.001s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (05:34:29) 0.013u 0.007s 0:00.04 25.0%	0+0k 1056+512io 0pf+0w
+:ENERGY convergence: 8.798999624559656e-05
+:CHARGE convergence: 0.0414391
+:VDC convergence: 0.008398953591125746
+>lapw0      (05:34:29) 0.417u 0.009s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (05:34:30) 3.207u 0.205s 0:03.47 97.9%	0+0k 176+33464io 0pf+0w
+>lapwso     (05:34:33) 1.011u 0.122s 0:01.27 88.9%	0+0k 31520+103016io 0pf+0w
+>gwien1     (05:34:34) 1.39user 0.14system 0:01.81elapsed 84%CPU (0avgtext+0avgdata 75180maxresident)k
+>CyGInit    (05:34:37) 0.50user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 124180maxresident)k
+>gwien2     (06:04:25) 7.37user 0.16system 0:07.66elapsed 98%CPU (0avgtext+0avgdata 31952maxresident)k
+>lcore      (06:04:32) 0.013u 0.002s 0:00.03 33.3%	0+0k 8+256io 0pf+0w
+>mixer      (06:04:33) 0.015u 0.002s 0:00.05 20.0%	0+0k 1080+512io 0pf+0w
+:ENERGY convergence: 9.399999544257298e-05
+:CHARGE convergence: 0.0366523
+:VDC convergence: 0.006815939515404157
+>lapw0      (06:04:33) 0.430u 0.011s 0:00.47 93.6%	0+0k 176+264io 0pf+0w
+>lapw1      (06:04:33) 3.315u 0.193s 0:03.58 97.7%	0+0k 176+33464io 0pf+0w
+>lapwso     (06:04:37) 1.048u 0.122s 0:01.31 88.5%	0+0k 31520+103016io 0pf+0w
+>gwien1     (06:04:38) 1.45user 0.14system 0:01.80elapsed 88%CPU (0avgtext+0avgdata 75296maxresident)k
+>CyGInit    (06:04:40) 0.49user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 126424maxresident)k
+>gwien2     (06:37:13) 7.15user 0.14system 0:07.39elapsed 98%CPU (0avgtext+0avgdata 31652maxresident)k
+>lcore      (06:37:21) 0.012u 0.003s 0:00.03 33.3%	0+0k 8+256io 0pf+0w
+>mixer      (06:37:21) 0.012u 0.008s 0:00.05 20.0%	0+0k 1104+512io 0pf+0w
+:ENERGY convergence: 5.143000453244895e-05
+:CHARGE convergence: 0.0335863
+:VDC convergence: 0.005719626805628764
+>lapw0      (06:37:21) 0.427u 0.010s 0:00.45 95.5%	0+0k 176+264io 0pf+0w
+>lapw1      (06:37:21) 3.262u 0.194s 0:03.52 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (06:37:25) 1.030u 0.126s 0:01.29 89.1%	0+0k 31520+103016io 0pf+0w
+>gwien1     (06:37:26) 1.40user 0.14system 0:01.75elapsed 87%CPU (0avgtext+0avgdata 75352maxresident)k
+>CyGInit    (06:37:28) 0.49user 0.11system 0:00.69elapsed 86%CPU (0avgtext+0avgdata 124108maxresident)k
+>gwien2     (07:10:07) 7.17user 0.14system 0:07.40elapsed 98%CPU (0avgtext+0avgdata 31572maxresident)k
+>lcore      (07:10:14) 0.010u 0.005s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (07:10:15) 0.018u 0.001s 0:00.03 33.3%	0+0k 1128+512io 0pf+0w
+:ENERGY convergence: 0.00010163000115426257
+:CHARGE convergence: 0.04121
+:VDC convergence: 0.006278203135623439
+>lapw0      (07:10:15) 0.419u 0.007s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (07:10:15) 3.231u 0.224s 0:03.51 98.2%	0+0k 176+33464io 0pf+0w
+>lapwso     (07:10:19) 1.014u 0.131s 0:01.30 87.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (07:10:20) 1.41user 0.12system 0:01.81elapsed 84%CPU (0avgtext+0avgdata 77324maxresident)k
+>CyGInit    (07:10:22) 0.48user 0.12system 0:00.69elapsed 87%CPU (0avgtext+0avgdata 124336maxresident)k
+>gwien2     (07:42:49) 7.23user 0.18system 0:07.52elapsed 98%CPU (0avgtext+0avgdata 31416maxresident)k
+>lcore      (07:42:57) 0.012u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (07:42:57) 0.019u 0.001s 0:00.03 33.3%	0+0k 1152+512io 0pf+0w
+:ENERGY convergence: 0.00011003999679815024
+:CHARGE convergence: 0.0324532
+:VDC convergence: 0.004206298423457433
+>lapw0      (07:42:57) 0.417u 0.011s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (07:42:57) 3.261u 0.188s 0:03.50 98.2%	0+0k 176+33464io 0pf+0w
+>lapwso     (07:43:01) 1.026u 0.129s 0:01.30 87.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (07:43:02) 1.41user 0.13system 0:01.76elapsed 87%CPU (0avgtext+0avgdata 75480maxresident)k
+>CyGInit    (07:43:04) 0.49user 0.11system 0:00.70elapsed 85%CPU (0avgtext+0avgdata 124324maxresident)k
+>gwien2     (08:15:41) 7.16user 0.15system 0:07.43elapsed 98%CPU (0avgtext+0avgdata 33980maxresident)k
+>lcore      (08:15:48) 0.015u 0.000s 0:00.04 25.0%	0+0k 8+256io 0pf+0w
+>mixer      (08:15:48) 0.018u 0.001s 0:00.05 20.0%	0+0k 1176+512io 0pf+0w
+:ENERGY convergence: 0.0001014199951896444
+:CHARGE convergence: 0.0423259
+:VDC convergence: 0.005426351052240541
+>lapw0      (08:15:48) 0.417u 0.008s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (08:15:49) 3.230u 0.221s 0:03.52 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (08:15:52) 1.034u 0.117s 0:01.30 87.6%	0+0k 31520+103016io 0pf+0w
+>gwien1     (08:15:54) 1.43user 0.13system 0:01.78elapsed 87%CPU (0avgtext+0avgdata 75432maxresident)k
+>CyGInit    (08:15:56) 0.49user 0.11system 0:00.71elapsed 84%CPU (0avgtext+0avgdata 126544maxresident)k
+>gwien2     (08:48:26) 7.14user 0.16system 0:07.42elapsed 98%CPU (0avgtext+0avgdata 31704maxresident)k
+>lcore      (08:48:34) 0.012u 0.003s 0:00.03 33.3%	0+0k 8+256io 0pf+0w
+>mixer      (08:48:34) 0.018u 0.002s 0:00.04 25.0%	0+0k 1200+512io 0pf+0w
+:ENERGY convergence: 0.00012604999938048422
+:CHARGE convergence: 0.0322165
+:VDC convergence: 0.003195834862206759
+>lapw0      (08:48:34) 0.415u 0.012s 0:00.45 93.3%	0+0k 176+264io 0pf+0w
+>lapw1      (08:48:34) 3.237u 0.211s 0:03.51 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (08:48:38) 1.022u 0.136s 0:01.29 89.1%	0+0k 31520+103016io 0pf+0w
+>gwien1     (08:48:39) 1.39user 0.14system 0:01.75elapsed 88%CPU (0avgtext+0avgdata 75392maxresident)k
+>CyGInit    (08:48:41) 0.49user 0.10system 0:00.69elapsed 87%CPU (0avgtext+0avgdata 126536maxresident)k
+>gwien2     (09:21:36) 7.19user 0.14system 0:07.44elapsed 98%CPU (0avgtext+0avgdata 31900maxresident)k
+>lcore      (09:21:43) 0.010u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (09:21:43) 0.013u 0.007s 0:00.03 33.3%	0+0k 1224+512io 0pf+0w
+:ENERGY convergence: 0.00010638000094331801
+:CHARGE convergence: 0.0238151
+:VDC convergence: 0.0015959387969370908
+>lapw0      (09:21:43) 0.416u 0.008s 0:00.44 93.1%	0+0k 176+264io 0pf+0w
+>lapw1      (09:21:44) 3.251u 0.199s 0:03.51 98.0%	0+0k 176+33464io 0pf+0w
+>lapwso     (09:21:47) 1.029u 0.125s 0:01.29 88.3%	0+0k 31520+103016io 0pf+0w
+>gwien1     (09:21:49) 1.39user 0.14system 0:01.74elapsed 88%CPU (0avgtext+0avgdata 75392maxresident)k
+>CyGInit    (09:21:51) 0.48user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 124576maxresident)k
+>gwien2     (09:54:33) 7.19user 0.15system 0:07.45elapsed 98%CPU (0avgtext+0avgdata 33404maxresident)k
+>lcore      (09:54:40) 0.014u 0.001s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (09:54:40) 0.016u 0.005s 0:00.03 33.3%	0+0k 1248+512io 0pf+0w
+:ENERGY convergence: 8.973999501904473e-05
+:CHARGE convergence: 0.0157905
+:VDC convergence: 0.00017579319903493484
+>lapw0      (09:54:41) 0.416u 0.010s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (09:54:41) 3.242u 0.209s 0:03.48 98.8%	0+0k 176+33496io 0pf+0w
+>lapwso     (09:54:45) 1.010u 0.123s 0:01.27 88.9%	0+0k 31528+103032io 0pf+0w
+>gwien1     (09:54:46) 1.39user 0.14system 0:01.76elapsed 87%CPU (0avgtext+0avgdata 77420maxresident)k
+>CyGInit    (09:54:48) 0.49user 0.10system 0:00.71elapsed 84%CPU (0avgtext+0avgdata 124208maxresident)k
+>gwien2     (10:27:16) 7.18user 0.13system 0:07.43elapsed 98%CPU (0avgtext+0avgdata 31772maxresident)k
+>lcore      (10:27:23) 0.013u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (10:27:23) 0.015u 0.003s 0:00.03 33.3%	0+0k 1272+512io 0pf+0w
+:ENERGY convergence: 0.00010848000238183886
+:CHARGE convergence: 0.0046286
+:VDC convergence: 0.0017579938037477483
+>lapw0      (10:27:23) 0.435u 0.010s 0:00.46 95.6%	0+0k 176+264io 0pf+0w
+>lapw1      (10:27:24) 3.245u 0.215s 0:03.52 98.0%	0+0k 176+33472io 0pf+0w
+>lapwso     (10:27:27) 1.037u 0.115s 0:01.28 89.0%	0+0k 31528+103032io 0pf+0w
+>gwien1     (10:27:29) 1.40user 0.14system 0:01.76elapsed 88%CPU (0avgtext+0avgdata 75180maxresident)k
+>CyGInit    (10:27:31) 0.49user 0.10system 0:00.69elapsed 86%CPU (0avgtext+0avgdata 124540maxresident)k
+>gwien2     (11:01:28) 7.42user 0.15system 0:07.68elapsed 98%CPU (0avgtext+0avgdata 31680maxresident)k
+>lcore      (11:01:35) 0.010u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (11:01:35) 0.013u 0.006s 0:00.03 33.3%	0+0k 1296+512io 0pf+0w
+:ENERGY convergence: 3.167999966535717e-05
+:CHARGE convergence: 0.0041421
+:VDC convergence: 0.0023433797510614696
+>lapw0      (11:01:35) 0.435u 0.010s 0:00.47 93.6%	0+0k 176+264io 0pf+0w
+>lapw1      (11:01:36) 3.321u 0.207s 0:03.59 98.0%	0+0k 176+33472io 0pf+0w
+>lapwso     (11:01:40) 1.047u 0.131s 0:01.32 88.6%	0+0k 31528+103016io 0pf+0w
+>gwien1     (11:01:41) 1.41user 0.14system 0:01.94elapsed 79%CPU (0avgtext+0avgdata 75324maxresident)k
+>CyGInit    (11:01:43) 0.51user 0.11system 0:01.51elapsed 41%CPU (0avgtext+0avgdata 126628maxresident)k
+>gwien2     (11:32:49) 7.20user 0.15system 0:07.45elapsed 98%CPU (0avgtext+0avgdata 33704maxresident)k
+>lcore      (11:32:57) 0.014u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (11:32:57) 0.017u 0.002s 0:00.03 33.3%	0+0k 1320+512io 0pf+0w
+:ENERGY convergence: 2.3439999495167285e-05
+:CHARGE convergence: 0.0028593
+:VDC convergence: 0.001727893133872449
+>lapw0      (11:32:57) 0.424u 0.011s 0:00.45 95.5%	0+0k 176+264io 0pf+0w
+>lapw1      (11:32:57) 3.226u 0.221s 0:03.50 98.2%	0+0k 176+33472io 0pf+0w
+>lapwso     (11:33:01) 1.015u 0.137s 0:01.28 89.0%	0+0k 31528+103016io 0pf+0w
+>gwien1     (11:33:02) 1.40user 0.15system 0:01.76elapsed 88%CPU (0avgtext+0avgdata 77100maxresident)k
+>CyGInit    (11:33:04) 0.49user 0.11system 0:00.70elapsed 86%CPU (0avgtext+0avgdata 124384maxresident)k
+>gwien2     (12:06:22) 7.16user 0.16system 0:07.44elapsed 98%CPU (0avgtext+0avgdata 31680maxresident)k
+>lcore      (12:06:29) 0.014u 0.002s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (12:06:29) 0.018u 0.002s 0:00.03 33.3%	0+0k 1344+512io 0pf+0w
+:ENERGY convergence: 3.1000017770566046e-06
+:CHARGE convergence: 0.0024451
+:VDC convergence: 0.0014742543510322115
+>lapw0      (12:06:29) 0.426u 0.011s 0:00.45 95.5%	0+0k 176+264io 0pf+0w
+>lapw1      (12:06:30) 3.267u 0.195s 0:03.52 98.0%	0+0k 176+33472io 0pf+0w
+>lapwso     (12:06:33) 1.034u 0.119s 0:01.28 89.0%	0+0k 31528+103016io 0pf+0w
+>gwien1     (12:06:35) 1.41user 0.14system 0:01.79elapsed 86%CPU (0avgtext+0avgdata 75232maxresident)k
+>CyGInit    (12:06:37) 0.50user 0.11system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 124332maxresident)k
+>gwien2     (12:38:58) 7.44user 0.16system 0:07.71elapsed 98%CPU (0avgtext+0avgdata 31684maxresident)k
+>lcore      (12:39:06) 0.013u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (12:39:06) 0.015u 0.004s 0:00.03 33.3%	0+0k 1368+512io 0pf+0w
+:ENERGY convergence: 5.87000249652192e-06
+:CHARGE convergence: 0.0016661
+:VDC convergence: 0.001430605172662247
+>lapw0      (12:39:06) 0.417u 0.010s 0:00.44 95.4%	0+0k 176+264io 0pf+0w
+>lapw1      (12:39:06) 3.270u 0.194s 0:03.52 98.2%	0+0k 176+33472io 0pf+0w
+>lapwso     (12:39:10) 1.006u 0.138s 0:01.27 88.9%	0+0k 31528+103016io 0pf+0w
+>gwien1     (12:39:11) 1.39user 0.14system 0:01.78elapsed 86%CPU (0avgtext+0avgdata 75472maxresident)k
+>CyGInit    (12:39:13) 0.49user 0.10system 0:00.69elapsed 86%CPU (0avgtext+0avgdata 124364maxresident)k
+>gwien2     (13:09:15) 7.47user 0.16system 0:07.73elapsed 98%CPU (0avgtext+0avgdata 31720maxresident)k
+>lcore      (13:09:23) 0.010u 0.004s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (13:09:23) 0.016u 0.003s 0:00.03 33.3%	0+0k 1392+512io 0pf+0w
+:ENERGY convergence: 1.2680000509135425e-05
+:CHARGE convergence: 0.0009564
+:VDC convergence: 0.0011080730025971874
+>lapw0      (13:09:23) 0.427u 0.016s 0:00.45 95.5%	0+0k 176+264io 0pf+0w
+>lapw1      (13:09:23) 3.306u 0.239s 0:03.60 98.0%	0+0k 176+33472io 0pf+0w
+>lapwso     (13:09:27) 0.978u 0.121s 0:01.23 88.6%	0+0k 31528+103016io 0pf+0w
+>gwien1     (13:09:28) 1.39user 0.14system 0:02.54elapsed 60%CPU (0avgtext+0avgdata 75176maxresident)k
+>CyGInit    (13:09:31) 0.51user 0.10system 0:00.71elapsed 86%CPU (0avgtext+0avgdata 126352maxresident)k
+>gwien2     (13:40:51) 7.49user 0.16system 0:07.76elapsed 98%CPU (0avgtext+0avgdata 31728maxresident)k
+>lcore      (13:40:59) 0.011u 0.003s 0:00.02 50.0%	0+0k 8+256io 0pf+0w
+>mixer      (13:40:59) 0.016u 0.004s 0:00.03 33.3%	0+0k 1408+512io 0pf+0w
+:ENERGY convergence: 7.019996701274067e-06
+:CHARGE convergence: 0.0006015
+:VDC convergence: 0.0011320923459150478
