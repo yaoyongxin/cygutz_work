@@ -30,7 +30,9 @@ d5 = -d5*numpy.conj(d5)/abs(d5)
 d7 = -d7*numpy.conj(d7)/abs(d7)
 
 
-print(h5, h7, l5, l7, d5, d7)
+print(h5/u, h7/u)
+print(l5/u, l7/u)
+print(d5/u, d7/u)
 
 dmat = numpy.diag([d5]*6 + [d7]*8)/u
 hmat = numpy.diag([h5]*6 + [h7]*8)/u
